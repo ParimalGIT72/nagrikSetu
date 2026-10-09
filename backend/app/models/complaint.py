@@ -7,6 +7,7 @@ from sqlalchemy import (
     Float,
     Boolean,
     DateTime,
+    ForeignKey,
 )
 from sqlalchemy.orm import relationship
 from app.db.database import Base
@@ -16,6 +17,7 @@ class Complaint(Base):
     __tablename__ = "complaints"
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="SET NULL"), nullable=True, index=True)
     complaint_id = Column(String(32), unique=True, index=True, nullable=False)
     text = Column(Text, nullable=False)
     latitude = Column(Float, nullable=False)

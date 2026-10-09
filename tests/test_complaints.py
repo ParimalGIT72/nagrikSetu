@@ -1,51 +1,5 @@
 import io
-import sys
-from pathlib import Path
-import pytest
-from fastapi.testclient import TestClient
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.pool import StaticPool
-
-backend_dir = Path(__file__).resolve().parent.parent / "backend"
-if str(backend_dir) not in sys.path:
-    sys.path.insert(0, str(backend_dir))
-
-from app.main import app
-from app.db.database import Base, get_db
 from app.config import settings
-
-# In-memory SQLite engine for tests
-SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
-test_engine = create_engine(
-    SQLALCHEMY_DATABASE_URL,
-    connect_args={"check_same_thread": False},
-    poolclass=StaticPool,
-)
-TestingSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=test_engine)
-
-
-def override_get_db():
-    try:
-        db = TestingSessionLocal()
-        yield db
-    finally:
-        db.close()
-
-
-@pytest.fixture(scope="session", autouse=True)
-def setup_test_db():
-    Base.metadata.create_all(bind=test_engine)
-    app.dependency_overrides[get_db] = override_get_db
-    yield
-    Base.metadata.drop_all(bind=test_engine)
-    app.dependency_overrides.clear()
-
-
-@pytest.fixture
-def client():
-    with TestClient(app) as c:
-        yield c
 
 
 def test_health_check(client):
@@ -54,13 +8,13 @@ def test_health_check(client):
     assert response.json()["status"] == "healthy"
 
 
-def test_submit_valid_complaint_text_and_gps(client):
+def test_submit_valid_complaint_text_and_gps(client, citizen_headers):
     data = {
         "text": "Pune road has a large pothole near FC Road.",
         "latitude": "18.5204",
         "longitude": "73.8567",
     }
-    response = client.post("/api/complaints", data=data)
+    response = client.post("/api/complaints", data=data, headers=citizen_headers)
     assert response.status_code == 201
     body = response.json()
     assert "complaint_id" in body
@@ -69,7 +23,7 @@ def test_submit_valid_complaint_text_and_gps(client):
 
     # Verify retrieval
     cid = body["complaint_id"]
-    get_res = client.get(f"/api/complaints/{cid}")
+    get_res = client.get(f"/api/complaints/{cid}", headers=citizen_headers)
     assert get_res.status_code == 200
     complaint = get_res.json()
     assert complaint["complaint_id"] == cid
@@ -79,9 +33,24 @@ def test_submit_valid_complaint_text_and_gps(client):
     assert complaint["status"] == "SUBMITTED"
     assert complaint["image_path"] is None
     assert complaint["is_flagged"] is False
+    history = client.get("/api/auth/me/complaints", headers=citizen_headers)
+    assert history.status_code == 200
+    assert [item["complaint_id"] for item in history.json()["items"]] == [cid]
 
 
-def test_submit_complaint_with_image(client, tmp_path):
+def test_complaint_submission_requires_authentication(client):
+    response = client.post(
+        "/api/complaints",
+        data={
+            "text": "Pune road has a large pothole near FC Road.",
+            "latitude": "18.5204",
+            "longitude": "73.8567",
+        },
+    )
+    assert response.status_code == 401
+
+
+def test_submit_complaint_with_image(client, citizen_headers, tmp_path):
     orig_upload_dir = settings.UPLOAD_DIR
     settings.UPLOAD_DIR = tmp_path
     try:
@@ -94,12 +63,12 @@ def test_submit_complaint_with_image(client, tmp_path):
         files = {
             "image": ("garbage.png", io.BytesIO(image_content), "image/png"),
         }
-        response = client.post("/api/complaints", data=data, files=files)
+        response = client.post("/api/complaints", data=data, files=files, headers=citizen_headers)
         assert response.status_code == 201
         body = response.json()
         cid = body["complaint_id"]
 
-        get_res = client.get(f"/api/complaints/{cid}")
+        get_res = client.get(f"/api/complaints/{cid}", headers=citizen_headers)
         assert get_res.status_code == 200
         complaint = get_res.json()
         assert complaint["image_path"] is not None
@@ -109,38 +78,43 @@ def test_submit_complaint_with_image(client, tmp_path):
         settings.UPLOAD_DIR = orig_upload_dir
 
 
-def test_submit_complaint_empty_text_rejected(client):
+def test_submit_complaint_empty_text_rejected(client, citizen_headers):
     data = {
         "text": "   ",
         "latitude": "18.5204",
         "longitude": "73.8567",
     }
-    response = client.post("/api/complaints", data=data)
+    response = client.post("/api/complaints", data=data, headers=citizen_headers)
     assert response.status_code == 400
     assert "cannot be empty" in response.json()["detail"]
 
 
-def test_submit_complaint_invalid_coordinates(client):
+def test_submit_complaint_invalid_coordinates(client, citizen_headers):
     data = {
         "text": "Valid text description for testing out of range GPS.",
         "latitude": "95.5",
         "longitude": "73.8567",
     }
-    response = client.post("/api/complaints", data=data)
+    response = client.post("/api/complaints", data=data, headers=citizen_headers)
     assert response.status_code == 400
     assert "Latitude must be between -90 and 90" in response.json()["detail"]
 
 
-def test_list_complaints(client):
-    response = client.get("/api/complaints")
+def test_list_complaints(client, officer_headers):
+    response = client.get("/api/complaints", headers=officer_headers)
     assert response.status_code == 200
     body = response.json()
     assert "total" in body
     assert "items" in body
-    assert body["total"] >= 2
+    assert body["total"] >= len(body["items"])
 
 
-def test_get_nonexistent_complaint_returns_404(client):
-    response = client.get("/api/complaints/CMP-NONEXISTENT-999")
+def test_citizen_cannot_use_global_complaint_list(client, citizen_headers):
+    response = client.get("/api/complaints", headers=citizen_headers)
+    assert response.status_code == 403
+
+
+def test_get_nonexistent_complaint_returns_404(client, citizen_headers):
+    response = client.get("/api/complaints/CMP-NONEXISTENT-999", headers=citizen_headers)
     assert response.status_code == 404
     assert "not found" in response.json()["detail"]

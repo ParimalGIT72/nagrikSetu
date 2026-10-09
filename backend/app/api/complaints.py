@@ -4,8 +4,10 @@ from typing import Optional
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile, status
 from sqlalchemy.orm import Session
 
+from app.api.dependencies import get_current_user, require_staff
 from app.db.database import get_db
 from app.models.complaint import Complaint
+from app.models.user import User
 from app.schemas.complaint import (
     ComplaintListResponse,
     ComplaintResponse,
@@ -39,6 +41,7 @@ async def submit_complaint(
     latitude: float = Form(..., description="GPS latitude (-90 to 90)"),
     longitude: float = Form(..., description="GPS longitude (-180 to 180)"),
     image: Optional[UploadFile] = File(None, description="Optional supporting photo (max 5MB, jpg/png/webp)"),
+    user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
     """
@@ -67,6 +70,7 @@ async def submit_complaint(
 
     # 5. Persist in database
     db_complaint = Complaint(
+        user_id=user.id,
         complaint_id=complaint_id,
         text=cleaned_text,
         latitude=lat,
@@ -96,6 +100,7 @@ def list_complaints(
     status_filter: Optional[str] = Query(None, alias="status", description="Filter by status (e.g. SUBMITTED)"),
     limit: int = Query(50, ge=1, le=100, description="Max records to return"),
     offset: int = Query(0, ge=0, description="Number of records to skip"),
+    _: User = Depends(require_staff),
     db: Session = Depends(get_db),
 ):
     """
@@ -118,13 +123,14 @@ def list_complaints(
 )
 def get_complaint(
     complaint_id: str,
+    user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
     """
     Fetches full details of a single complaint by its public complaint ID.
     """
     complaint = db.query(Complaint).filter(Complaint.complaint_id == complaint_id).first()
-    if not complaint:
+    if complaint is None or (user.role == "citizen" and complaint.user_id != user.id):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Complaint '{complaint_id}' not found",

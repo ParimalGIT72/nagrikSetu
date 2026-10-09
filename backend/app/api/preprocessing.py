@@ -1,9 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.orm import Session
 
+from app.api.dependencies import get_current_user
 from app.db.database import get_db
 from app.models.complaint import Complaint
 from app.models.preprocessing import ComplaintPreprocessing
+from app.models.user import User
 from app.schemas.preprocessing import ComplaintPreprocessingResponse
 from app.services.preprocessing import (
     get_current_preprocessing,
@@ -51,6 +53,7 @@ def process_complaint(
     pipeline_version: str = Query(
         "phase2-v1", description="Target pipeline version for processing"
     ),
+    user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
     """
@@ -64,7 +67,7 @@ def process_complaint(
     complaint = (
         db.query(Complaint).filter(Complaint.complaint_id == complaint_id).first()
     )
-    if not complaint:
+    if complaint is None or (user.role == "citizen" and complaint.user_id != user.id):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Complaint '{complaint_id}' not found",
@@ -87,6 +90,7 @@ def process_complaint(
 )
 def get_preprocessing(
     complaint_id: str,
+    user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
     """
@@ -95,7 +99,7 @@ def get_preprocessing(
     complaint = (
         db.query(Complaint).filter(Complaint.complaint_id == complaint_id).first()
     )
-    if not complaint:
+    if complaint is None or (user.role == "citizen" and complaint.user_id != user.id):
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail=f"Complaint '{complaint_id}' not found",

@@ -10,3 +10,8 @@ pytest-asyncio
 httpx
 fasttext-wheel
 numpy<2.0.0
+alembic
+argon2-cffi
+email-validator
+PyJWT[crypto]
+slowapi
