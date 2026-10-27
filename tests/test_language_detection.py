@@ -73,3 +73,35 @@ def test_detect_language_empty_input():
     res = detect_language("   ")
     assert res.language == "unknown"
     assert res.confidence == 0.0
+
+
+def test_detect_language_romanized_hindi():
+    res = detect_language("Sadak par bahut bada gaddha hai gaadi fis rahi hai.")
+    assert res.language == "hi"
+    assert res.script == "latin"
+    assert res.is_code_mixed is False
+    assert res.confidence >= 0.80
+
+
+def test_detect_language_hindi_english_code_mixed():
+    res = detect_language("Yahan road par bahut bada pothole hai please repair karo urgently.")
+    assert res.language == "hi-en"
+    assert res.script == "latin"
+    assert res.is_code_mixed is True
+    assert res.confidence >= 0.80
+
+
+def test_detect_language_mixed_script():
+    res = detect_language("FC Road वर खूप मोठा खड्डा आहे")
+    assert res.script == "mixed"
+    assert res.is_code_mixed is True
+    assert res.language == "mr-en"
+
+
+def test_tokenize_devanagari_preserves_matras_and_viramas():
+    from app.services.language_detection import tokenize_words
+    tokens = tokenize_words("यहाँ बहुत बड़ा गड्ढा है। खड्डा आहे.")
+    assert "गड्ढा" in tokens
+    assert "खड्डा" in tokens
+    assert "है" in tokens
+    assert "आहे" in tokens

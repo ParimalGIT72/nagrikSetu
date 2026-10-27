@@ -22,4 +22,4 @@ npm run build
 
 Citizen registration uses email and password only; the backend has no name field. Staff registration is not offered. Complaint submission sends multipart `text`, `latitude`, `longitude`, and optional `image`, without a client-supplied `user_id`.
 
-The API currently serves uploaded files publicly under `/uploads`. This frontend does not render `image_path` as a URL or fetch image previews, but the files themselves are not private.
+Complaint images are available through `GET /api/complaints/{complaint_id}/image`, which requires authentication and enforces complaint ownership for citizens; officers and admins can access staff-visible complaints. The frontend currently does not render image previews.

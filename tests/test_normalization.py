@@ -66,3 +66,28 @@ def test_deterministic_pipeline_noisy_case():
     assert "!" in res.normalized_text
     assert "!!!!!!" not in res.normalized_text
     assert res.needs_semantic_llm is True
+
+
+def test_normalize_empty_and_whitespace_only():
+    """Empty and whitespace-only text should safely produce empty strings without error."""
+    assert normalize_text_deterministic("").normalized_text == ""
+    assert normalize_text_deterministic("   \t\n  ").normalized_text == ""
+
+
+def test_no_accidental_deletion_of_civic_content():
+    """Ensures meaningful complaint details like ward numbers, plot info, phone numbers are preserved."""
+    raw = "Ward 15, Plot #234, Lane 7: Water leakage since 3 days! Call 9876543210."
+    res = normalize_text_deterministic(raw)
+    assert "Ward 15" in res.normalized_text
+    assert "Plot #234" in res.normalized_text
+    assert "9876543210" in res.normalized_text
+
+
+def test_clean_text_remains_unchanged_indic():
+    """Clean Hindi and Marathi text must not be altered by normalization."""
+    mr_clean = "रस्त्यावर खूप मोठा खड्डा आहे."
+    hi_clean = "सड़क पर बहुत बड़ा गड्ढा है।"
+    assert normalize_text_deterministic(mr_clean).normalized_text == mr_clean
+    assert normalize_text_deterministic(hi_clean).normalized_text == hi_clean
+    assert normalize_text_deterministic(mr_clean).needs_semantic_llm is False
+    assert normalize_text_deterministic(hi_clean).needs_semantic_llm is False

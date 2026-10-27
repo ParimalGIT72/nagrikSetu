@@ -43,22 +43,28 @@ def get_fasttext_model():
 
 # Common Indic markers used in multi-signal heuristic evidence
 MARATHI_ROMANIZED_MARKERS: Set[str] = {
-    "madhe", "aahe", "aahet", "ahe", "ahet", "khup", "motha", "mothi", "mothe",
+    "madhe", "madhye", "aahe", "aahet", "ahe", "ahet", "khup", "motha", "mothi", "mothe",
     "rastya", "rastyavar", "khadda", "khadde", "jhala", "zala", "zhale", "zale",
-    "nahi", "kiti", "aani", "ani", "karan", "pani", "kachra", "karave",
+    "nahi", "nahiet", "kiti", "aani", "ani", "karan", "pani", "paani", "kachra", "karave", "kara",
     "punyat", "var", "varach", "kahi", "tasech", "loker", "dya",
     "che", "cha", "chi", "chya", "javal", "houn", "yete", "yet",
-    "kela", "keli", "kele", "kartat", "karto", "karte", "hoto", "hote", "hota", "hoti",
+    "kela", "keli", "kele", "kartat", "karto", "karte", "hoto", "hote", "hota", "hoti", "hotoy", "hotaat",
     "mule", "nantar", "pasun", "shakto", "shakte", "aali", "aala", "gela", "geli",
-    "thevla", "thevli", "thevle", "tutle", "padla", "padle", "suddha", "pan", "tar",
-    "kuthlya", "kadhun", "kadhe", "baddal", "war", "chalu", "astat", "kelya", "jagi", "dakhavli", "dakhavat"
+    "thevla", "thevli", "thevle", "tutle", "padla", "padle", "padli", "suddha", "pan", "tar",
+    "kuthlya", "kadhun", "kadhe", "baddal", "war", "chalu", "astat", "kelya", "jagi", "dakhavli", "dakhavat",
+    "traas", "lokaana", "lokaanna", "chalte", "band", "samasya", "vinaanti", "takraar", "galli",
+    "ghya", "aslyamule", "vikat", "ghyave", "lagte", "naala", "saaf", "bhagat", "dukaan", "taktat",
+    "gardi", "aste", "karne", "todun", "neele", "ratri", "andhaar", "vaatate", "kartaat", "udat",
+    "zop", "banlya", "koni", "uthavat", "todla", "baher", "samor", "ardhavat", "sodla"
 }
 
 HINDI_ROMANIZED_MARKERS: Set[str] = {
     "hai", "hain", "bahut", "bada", "badi", "bade",
     "sadak", "gaddha", "gaddhe", "nahi", "karo", "raha", "rahe", "rahi",
     "paani", "kuda", "yahan", "kripya", "kijiye", "hota", "hote", "hoti", "bhi",
-    "liye", "gaya", "gaye", "gayi", "diya", "diye", "wala", "wali", "wale", "aur"
+    "liye", "gaya", "gaye", "gayi", "diya", "diye", "wala", "wali", "wale", "aur",
+    "bijli", "band", "shor", "subah", "shaam", "mein", "par", "se", "ko", "roz",
+    "katti", "rehta", "aata", "jaata", "lag", "beh", "gandagi", "aayi", "naali", "fis"
 }
 
 ENGLISH_COMMON_WORDS: Set[str] = {
@@ -89,17 +95,23 @@ ENGLISH_COMMON_WORDS: Set[str] = {
     "zebra", "crossing", "bottleneck", "delivery", "joggers", "fluctuation", "outages",
     "generator", "horns", "concrete", "mixers", "procession", "ambulance",
     "firecrackers", "workshop", "hammering", "tiles", "lake", "market", "residential",
-    "silence", "zone", "loudspeaker", "announcements", "declare", "declared"
+    "silence", "zone", "loudspeaker", "announcements", "declare", "declared",
+    "tanker", "municipality", "supply", "basement", "collection", "office", "regularly",
+    "daily", "crowded", "breathe", "residents", "upset", "stink", "unbearable", "highway",
+    "condition", "sparks", "secretly", "disgusting", "laboratory", "bore", "well",
+    "contaminated", "safe", "correct", "disturbing", "jam"
 }
 
 MARATHI_DEVANAGARI_MARKERS: Set[str] = {
-    "आहे", "आहेत", "नाही", "खूप", "रस्ता", "रस्त्यावर", "खड्डा", "खड्डे",
-    "झाले", "झाला", "कचरा", "पाणी", "करा", "करावे", "येथे", "पाहिजे", "कृपया"
+    "आहे", "आहेत", "नाही", "नाहीत", "खूप", "रस्ता", "रस्त्यावर", "खड्डा", "खड्डे",
+    "झाले", "झाला", "कचरा", "पाणी", "करा", "करावे", "करावी", "करावेत", "येथे", "पाहिजे", "कृपया",
+    "तात्काळ", "लवकर", "दुरुस्ती", "नगरपालिकेने", "तक्रार", "कारवाई"
 }
 
 HINDI_DEVANAGARI_MARKERS: Set[str] = {
     "है", "हैं", "नहीं", "बहुत", "सड़क", "गड्ढा", "गड्ढे", "हुआ", "गया",
-    "पानी", "करो", "चाहिए", "यहाँ", "कृपया", "कीजिए", "हो"
+    "पानी", "करो", "चाहिए", "यहाँ", "कृपया", "कीजिए", "हो",
+    "तुरंत", "कार्रवाई", "करनी", "समस्या", "गंभीर", "शिकायत"
 }
 
 
@@ -107,13 +119,15 @@ def analyze_script(text: str) -> Tuple[str, Dict[str, int]]:
     """
     Analyzes characters to determine whether the text is written in
     Devanagari, Latin, or Mixed script.
+    Preserves Indic combining marks (vowel signs/matras, virama).
     """
     counts = {"devanagari": 0, "latin": 0, "other": 0}
 
     for ch in text:
-        if not ch.isalnum():
-            continue
         cp = ord(ch)
+        cat = unicodedata.category(ch)
+        if cat[0] not in ("L", "M", "N"):
+            continue
         if 0x0900 <= cp <= 0x097F:
             counts["devanagari"] += 1
         elif (0x0041 <= cp <= 0x005A) or (0x0061 <= cp <= 0x007A) or (0x00C0 <= cp <= 0x024F):
@@ -128,21 +142,25 @@ def analyze_script(text: str) -> Tuple[str, Dict[str, int]]:
     dev_ratio = counts["devanagari"] / total_alpha
     latin_ratio = counts["latin"] / total_alpha
 
+    if (counts["devanagari"] >= 2 and counts["latin"] >= 2) and (dev_ratio >= 0.10 and latin_ratio >= 0.10):
+        return "mixed", counts
+
     if dev_ratio >= 0.85:
         return "devanagari", counts
     if latin_ratio >= 0.85:
         return "latin", counts
-    if dev_ratio >= 0.15 and latin_ratio >= 0.15:
-        return "mixed", counts
 
     return "devanagari" if dev_ratio > latin_ratio else "latin", counts
 
 
 def tokenize_words(text: str) -> List[str]:
     """
-    Splits text into lowercased alphanumeric tokens.
+    Splits text into lowercased tokens without splitting Devanagari words
+    on combining marks (matras/viramas).
     """
-    return [w.lower() for w in re.findall(r"\b\w+\b", text, flags=re.UNICODE)]
+    tokens = re.findall(r"[\w\u0900-\u097F]+", text, flags=re.UNICODE)
+    clean_tokens = [t.strip("।॥_").lower() for t in tokens]
+    return [t for t in clean_tokens if t]
 
 
 def detect_language(text: str) -> LanguageDetectionResult:

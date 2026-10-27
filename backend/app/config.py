@@ -2,6 +2,9 @@ from pathlib import Path
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+BACKEND_DIR = Path(__file__).resolve().parent.parent
+PROJECT_ROOT = BACKEND_DIR.parent
+
 
 class Settings(BaseSettings):
     # Database
@@ -35,7 +38,7 @@ class Settings(BaseSettings):
     GEMINI_MODEL: str = "gemini-1.5-flash"
 
     model_config = SettingsConfigDict(
-        env_file=(".env", "backend/.env"),
+        env_file=(PROJECT_ROOT / ".env", BACKEND_DIR / ".env"),
         env_file_encoding="utf-8",
         extra="ignore",
     )

@@ -50,6 +50,7 @@ def _isolated_test_url():
 def test_engine():
     engine = create_engine(_isolated_test_url(), pool_pre_ping=True)
     config = Config(str(BACKEND_DIR / "alembic.ini"))
+    config.set_main_option("script_location", str(BACKEND_DIR / "migrations"))
     with engine.connect() as connection:
         config.attributes["connection"] = connection
         command.upgrade(config, "head")

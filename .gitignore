@@ -1,18 +1,50 @@
-venv/
-backend/venv/
-.env
-backend/.env
-__pycache__/
-*.pyc
-*.db
 
+# Python virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.backend/.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# User uploads
 uploads/*
 !uploads/.gitkeep
 backend/uploads/*
 !backend/uploads/.gitkeep
 
+# ML model binaries
 ml/models/**/*.ftz
 ml/models/**/*.bin
 
-.pytest_cache/
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+
+# Database backups
+backups/
+*.backup
+*.dump
+
+# Editor and operating system files
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db

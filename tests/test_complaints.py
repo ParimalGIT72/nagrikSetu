@@ -1,5 +1,8 @@
 import io
+import uuid
 from app.config import settings
+from app.models.user import User
+from app.services.authentication import create_access_token, hash_password
 
 
 def test_health_check(client):
@@ -74,6 +77,49 @@ def test_submit_complaint_with_image(client, citizen_headers, tmp_path):
         assert complaint["image_path"] is not None
         assert "garbage" not in complaint["image_path"]  # Safe renamed filename
         assert complaint["image_path"].endswith(".png")
+    finally:
+        settings.UPLOAD_DIR = orig_upload_dir
+
+
+def test_complaint_image_requires_owner_or_staff(
+    client, citizen_headers, db_session, tmp_path
+):
+    orig_upload_dir = settings.UPLOAD_DIR
+    settings.UPLOAD_DIR = tmp_path
+    try:
+        response = client.post(
+            "/api/complaints",
+            data={
+                "text": "A damaged streetlight is leaning over the footpath.",
+                "latitude": "18.5204",
+                "longitude": "73.8567",
+            },
+            files={"image": ("lamp.png", io.BytesIO(b"image data"), "image/png")},
+            headers=citizen_headers,
+        )
+        assert response.status_code == 201
+        complaint_id = response.json()["complaint_id"]
+        image_url = f"/api/complaints/{complaint_id}/image"
+
+        assert client.get(image_url).status_code == 401
+        owner_response = client.get(image_url, headers=citizen_headers)
+        assert owner_response.status_code == 200
+        assert owner_response.content == b"image data"
+
+        other_user = User(
+            email=f"other-{uuid.uuid4().hex}@example.test",
+            password_hash=hash_password("A-long-test-password-123!"),
+            role="citizen",
+            is_active=True,
+        )
+        db_session.add(other_user)
+        db_session.commit()
+        db_session.refresh(other_user)
+        token, _ = create_access_token(other_user)
+        other_response = client.get(
+            image_url, headers={"Authorization": f"Bearer {token}"}
+        )
+        assert other_response.status_code == 404
     finally:
         settings.UPLOAD_DIR = orig_upload_dir
 

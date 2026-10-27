@@ -2,3001 +2,3301 @@
   {
     "id": "EVAL-0001",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "There is a large pothole near FC Road causing accidents.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "There is a large pothole near FC Road causing accidents.",
-    "expected_translation_en": "There is a large pothole near FC Road causing accidents."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0002",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Deep crater on Karve Road after heavy monsoon rains.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Deep crater on Karve Road after heavy monsoon rains.",
-    "expected_translation_en": "Deep crater on Karve Road after heavy monsoon rains."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0003",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Road resurfacing is urgently needed on Baner Pashan link road.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Road resurfacing is urgently needed on Baner Pashan link road.",
-    "expected_translation_en": "Road resurfacing is urgently needed on Baner Pashan link road."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0004",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Dangerous speed breaker without white paint marks near university gate.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Dangerous speed breaker without white paint marks near university gate.",
-    "expected_translation_en": "Dangerous speed breaker without white paint marks near university gate."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0005",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Asphalt washed away on Sinhagad road creating flying pebbles.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Asphalt washed away on Sinhagad road creating flying pebbles.",
-    "expected_translation_en": "Asphalt washed away on Sinhagad road creating flying pebbles."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0006",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Multiple potholes outside Pune station autorickshaw stand.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Multiple potholes outside Pune station autorickshaw stand.",
-    "expected_translation_en": "Multiple potholes outside Pune station autorickshaw stand."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0007",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Manhole cover is uneven and raised above road level on JM Road.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Manhole cover is uneven and raised above road level on JM Road.",
-    "expected_translation_en": "Manhole cover is uneven and raised above road level on JM Road."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0008",
     "category": "roads",
+    "eval_group": "english_clean",
     "original_text": "Unpaved side road in Hadapsar creating severe dust and skidding.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Unpaved side road in Hadapsar creating severe dust and skidding.",
-    "expected_translation_en": "Unpaved side road in Hadapsar creating severe dust and skidding."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0009",
     "category": "garbage",
+    "eval_group": "english_clean",
     "original_text": "Overflowing waste container at Kothrud depot spreading foul smell.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Overflowing waste container at Kothrud depot spreading foul smell.",
-    "expected_translation_en": "Overflowing waste container at Kothrud depot spreading foul smell."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0010",
     "category": "garbage",
+    "eval_group": "english_clean",
     "original_text": "Garbage collection truck has not visited Bavdhan for three days.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Garbage collection truck has not visited Bavdhan for three days.",
-    "expected_translation_en": "Garbage collection truck has not visited Bavdhan for three days."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0011",
     "category": "garbage",
+    "eval_group": "english_clean",
     "original_text": "Stray cattle feeding on open trash heap in Shivajinagar.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Stray cattle feeding on open trash heap in Shivajinagar.",
-    "expected_translation_en": "Stray cattle feeding on open trash heap in Shivajinagar."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0012",
     "category": "garbage",
+    "eval_group": "english_clean",
     "original_text": "Plastic waste and wet garbage rotting near municipal school.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Plastic waste and wet garbage rotting near municipal school.",
-    "expected_translation_en": "Plastic waste and wet garbage rotting near municipal school."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0013",
     "category": "garbage",
+    "eval_group": "english_clean",
     "original_text": "Waste sorting bin broken and scattered across pedestrian pavement.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Waste sorting bin broken and scattered across pedestrian pavement.",
-    "expected_translation_en": "Waste sorting bin broken and scattered across pedestrian pavement."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0014",
     "category": "garbage",
+    "eval_group": "english_clean",
     "original_text": "Illegal dumping of residential food waste near Katraj lake garden.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Illegal dumping of residential food waste near Katraj lake garden.",
-    "expected_translation_en": "Illegal dumping of residential food waste near Katraj lake garden."
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0015",
-    "category": "garbage",
-    "original_text": "No public dustbins placed anywhere on main market street.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "No public dustbins placed anywhere on main market street.",
-    "expected_translation_en": "No public dustbins placed anywhere on main market street."
-  },
-  {
-    "id": "EVAL-0016",
-    "category": "garbage",
-    "original_text": "Dead animals lying unattended near dumping ground for hours.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Dead animals lying unattended near dumping ground for hours.",
-    "expected_translation_en": "Dead animals lying unattended near dumping ground for hours."
-  },
-  {
-    "id": "EVAL-0017",
     "category": "water_supply",
+    "eval_group": "english_clean",
     "original_text": "Low pressure tap water supply in Aundh residential society.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Low pressure tap water supply in Aundh residential society.",
-    "expected_translation_en": "Low pressure tap water supply in Aundh residential society."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0018",
+    "id": "EVAL-0016",
     "category": "water_supply",
+    "eval_group": "english_clean",
     "original_text": "Contaminated muddy water flowing through drinking water pipeline.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Contaminated muddy water flowing through drinking water pipeline.",
-    "expected_translation_en": "Contaminated muddy water flowing through drinking water pipeline."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0019",
+    "id": "EVAL-0017",
     "category": "water_supply",
+    "eval_group": "english_clean",
     "original_text": "Main supply pipe leakage wasting gallons of drinking water on road.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Main supply pipe leakage wasting gallons of drinking water on road.",
-    "expected_translation_en": "Main supply pipe leakage wasting gallons of drinking water on road."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0020",
+    "id": "EVAL-0018",
     "category": "water_supply",
+    "eval_group": "english_clean",
     "original_text": "No municipal water received in Warje for the past 48 hours.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "No municipal water received in Warje for the past 48 hours.",
-    "expected_translation_en": "No municipal water received in Warje for the past 48 hours."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0021",
+    "id": "EVAL-0019",
     "category": "water_supply",
+    "eval_group": "english_clean",
     "original_text": "Irregular water supply timings causing hardship to senior citizens.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Irregular water supply timings causing hardship to senior citizens.",
-    "expected_translation_en": "Irregular water supply timings causing hardship to senior citizens."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0022",
+    "id": "EVAL-0020",
     "category": "water_supply",
+    "eval_group": "english_clean",
     "original_text": "Water valve malfunctioning and overflowing into nearby gutters.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Water valve malfunctioning and overflowing into nearby gutters.",
-    "expected_translation_en": "Water valve malfunctioning and overflowing into nearby gutters."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0023",
-    "category": "water_supply",
-    "original_text": "Foul chemical odor coming from morning tap water in Dhankawadi.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Foul chemical odor coming from morning tap water in Dhankawadi.",
-    "expected_translation_en": "Foul chemical odor coming from morning tap water in Dhankawadi."
-  },
-  {
-    "id": "EVAL-0024",
-    "category": "water_supply",
-    "original_text": "Broken pipeline connection causing drinking water to mix with sewage.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Broken pipeline connection causing drinking water to mix with sewage.",
-    "expected_translation_en": "Broken pipeline connection causing drinking water to mix with sewage."
-  },
-  {
-    "id": "EVAL-0025",
+    "id": "EVAL-0021",
     "category": "street_light",
+    "eval_group": "english_clean",
     "original_text": "Street lights not functioning on Viman Nagar main road.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Street lights not functioning on Viman Nagar main road.",
-    "expected_translation_en": "Street lights not functioning on Viman Nagar main road."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0026",
+    "id": "EVAL-0022",
     "category": "street_light",
+    "eval_group": "english_clean",
     "original_text": "Complete darkness on internal lane of Tingre Nagar for one week.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Complete darkness on internal lane of Tingre Nagar for one week.",
-    "expected_translation_en": "Complete darkness on internal lane of Tingre Nagar for one week."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0027",
+    "id": "EVAL-0023",
     "category": "street_light",
+    "eval_group": "english_clean",
     "original_text": "Street light pole bent precariously after truck collision.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Street light pole bent precariously after truck collision.",
-    "expected_translation_en": "Street light pole bent precariously after truck collision."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0028",
+    "id": "EVAL-0024",
     "category": "street_light",
+    "eval_group": "english_clean",
     "original_text": "Exposed wiring on electrical lamp post posing safety hazard to children.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Exposed wiring on electrical lamp post posing safety hazard to children.",
-    "expected_translation_en": "Exposed wiring on electrical lamp post posing safety hazard to children."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0029",
+    "id": "EVAL-0025",
     "category": "street_light",
+    "eval_group": "english_clean",
     "original_text": "Street light blinking continuously causing irritation to residents.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Street light blinking continuously causing irritation to residents.",
-    "expected_translation_en": "Street light blinking continuously causing irritation to residents."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0030",
+    "id": "EVAL-0026",
     "category": "street_light",
+    "eval_group": "english_clean",
     "original_text": "Lights turned on during daylight hours leading to electricity wastage.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Lights turned on during daylight hours leading to electricity wastage.",
-    "expected_translation_en": "Lights turned on during daylight hours leading to electricity wastage."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0031",
-    "category": "street_light",
-    "original_text": "Lamp shade missing and bulb covered with dense tree branches.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Lamp shade missing and bulb covered with dense tree branches.",
-    "expected_translation_en": "Lamp shade missing and bulb covered with dense tree branches."
-  },
-  {
-    "id": "EVAL-0032",
+    "id": "EVAL-0027",
     "category": "drainage",
+    "eval_group": "english_clean",
     "original_text": "Open gutter overflowing with black sewage on Paud Road.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Open gutter overflowing with black sewage on Paud Road.",
-    "expected_translation_en": "Open gutter overflowing with black sewage on Paud Road."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0033",
+    "id": "EVAL-0028",
     "category": "drainage",
+    "eval_group": "english_clean",
     "original_text": "Storm water drain completely choked with silt and plastic debris.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Storm water drain completely choked with silt and plastic debris.",
-    "expected_translation_en": "Storm water drain completely choked with silt and plastic debris."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0034",
+    "id": "EVAL-0029",
     "category": "drainage",
+    "eval_group": "english_clean",
     "original_text": "Missing storm drain cover creating fatal death trap for pedestrians.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Missing storm drain cover creating fatal death trap for pedestrians.",
-    "expected_translation_en": "Missing storm drain cover creating fatal death trap for pedestrians."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0035",
+    "id": "EVAL-0030",
     "category": "drainage",
+    "eval_group": "english_clean",
     "original_text": "Drainage inspection chamber cracked and emitting nauseating fumes.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Drainage inspection chamber cracked and emitting nauseating fumes.",
-    "expected_translation_en": "Drainage inspection chamber cracked and emitting nauseating fumes."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0036",
+    "id": "EVAL-0031",
     "category": "drainage",
+    "eval_group": "english_clean",
     "original_text": "Sewage backing up into ground floor apartments during rainfall.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Sewage backing up into ground floor apartments during rainfall.",
-    "expected_translation_en": "Sewage backing up into ground floor apartments during rainfall."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0037",
+    "id": "EVAL-0032",
     "category": "drainage",
+    "eval_group": "english_clean",
     "original_text": "Clogged roadside culvert flooding nearby shops and commercial spaces.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Clogged roadside culvert flooding nearby shops and commercial spaces.",
-    "expected_translation_en": "Clogged roadside culvert flooding nearby shops and commercial spaces."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0038",
-    "category": "drainage",
-    "original_text": "Underground drainage pipeline collapse causing road sinkhole.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Underground drainage pipeline collapse causing road sinkhole.",
-    "expected_translation_en": "Underground drainage pipeline collapse causing road sinkhole."
-  },
-  {
-    "id": "EVAL-0039",
-    "category": "drainage",
-    "original_text": "Mosquito breeding in stagnant wastewater in open uncleaned drain.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Mosquito breeding in stagnant wastewater in open uncleaned drain.",
-    "expected_translation_en": "Mosquito breeding in stagnant wastewater in open uncleaned drain."
-  },
-  {
-    "id": "EVAL-0040",
+    "id": "EVAL-0033",
     "category": "traffic",
+    "eval_group": "english_clean",
     "original_text": "Traffic signal at Swargate junction malfunctioning and showing yellow.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Traffic signal at Swargate junction malfunctioning and showing yellow.",
-    "expected_translation_en": "Traffic signal at Swargate junction malfunctioning and showing yellow."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0041",
+    "id": "EVAL-0034",
     "category": "traffic",
+    "eval_group": "english_clean",
     "original_text": "Illegal vehicle parking blocking entire left turn at busy square.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Illegal vehicle parking blocking entire left turn at busy square.",
-    "expected_translation_en": "Illegal vehicle parking blocking entire left turn at busy square."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0042",
+    "id": "EVAL-0035",
     "category": "traffic",
+    "eval_group": "english_clean",
     "original_text": "Commercial auto rickshaws blocking city bus stop entrance.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Commercial auto rickshaws blocking city bus stop entrance.",
-    "expected_translation_en": "Commercial auto rickshaws blocking city bus stop entrance."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0043",
+    "id": "EVAL-0036",
     "category": "traffic",
+    "eval_group": "english_clean",
     "original_text": "Missing pedestrian zebra crossing markings at school intersection.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Missing pedestrian zebra crossing markings at school intersection.",
-    "expected_translation_en": "Missing pedestrian zebra crossing markings at school intersection."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0044",
+    "id": "EVAL-0037",
     "category": "traffic",
+    "eval_group": "english_clean",
     "original_text": "Extreme traffic bottleneck due to unauthorized road vendors.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Extreme traffic bottleneck due to unauthorized road vendors.",
-    "expected_translation_en": "Extreme traffic bottleneck due to unauthorized road vendors."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0045",
+    "id": "EVAL-0038",
     "category": "traffic",
+    "eval_group": "english_clean",
     "original_text": "Lack of traffic police personnel during morning peak school rush.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Lack of traffic police personnel during morning peak school rush.",
-    "expected_translation_en": "Lack of traffic police personnel during morning peak school rush."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0046",
-    "category": "traffic",
-    "original_text": "Delivery two-wheelers driving on sidewalk endangering morning joggers.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Delivery two-wheelers driving on sidewalk endangering morning joggers.",
-    "expected_translation_en": "Delivery two-wheelers driving on sidewalk endangering morning joggers."
-  },
-  {
-    "id": "EVAL-0047",
-    "category": "traffic",
-    "original_text": "Faulty timer on junction signal causing kilometer long traffic jams.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Faulty timer on junction signal causing kilometer long traffic jams.",
-    "expected_translation_en": "Faulty timer on junction signal causing kilometer long traffic jams."
-  },
-  {
-    "id": "EVAL-0048",
+    "id": "EVAL-0039",
     "category": "electricity",
+    "eval_group": "english_clean",
     "original_text": "Frequent unannounced power outages in Model Colony area.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Frequent unannounced power outages in Model Colony area.",
-    "expected_translation_en": "Frequent unannounced power outages in Model Colony area."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0049",
+    "id": "EVAL-0040",
     "category": "electricity",
+    "eval_group": "english_clean",
     "original_text": "High voltage fluctuation damaged domestic refrigerator and television.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "High voltage fluctuation damaged domestic refrigerator and television.",
-    "expected_translation_en": "High voltage fluctuation damaged domestic refrigerator and television."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0050",
+    "id": "EVAL-0041",
     "category": "electricity",
+    "eval_group": "english_clean",
     "original_text": "Low hanging high tension cable dangerously touching apartment balcony.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Low hanging high tension cable dangerously touching apartment balcony.",
-    "expected_translation_en": "Low hanging high tension cable dangerously touching apartment balcony."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0051",
+    "id": "EVAL-0042",
     "category": "electricity",
+    "eval_group": "english_clean",
     "original_text": "Substation transformer sparking loudly with smoke during drizzle.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Substation transformer sparking loudly with smoke during drizzle.",
-    "expected_translation_en": "Substation transformer sparking loudly with smoke during drizzle."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0052",
+    "id": "EVAL-0043",
     "category": "electricity",
+    "eval_group": "english_clean",
     "original_text": "Feeder pillar box left open with live wire exposed on footpath.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Feeder pillar box left open with live wire exposed on footpath.",
-    "expected_translation_en": "Feeder pillar box left open with live wire exposed on footpath."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0053",
+    "id": "EVAL-0044",
     "category": "electricity",
+    "eval_group": "english_clean",
     "original_text": "Underground cable fault leaving block without power for over 12 hours.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Underground cable fault leaving block without power for over 12 hours.",
-    "expected_translation_en": "Underground cable fault leaving block without power for over 12 hours."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0054",
-    "category": "electricity",
-    "original_text": "Rotten wooden electricity support pole on the verge of collapsing.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Rotten wooden electricity support pole on the verge of collapsing.",
-    "expected_translation_en": "Rotten wooden electricity support pole on the verge of collapsing."
-  },
-  {
-    "id": "EVAL-0055",
+    "id": "EVAL-0045",
     "category": "public_transport",
+    "eval_group": "english_clean",
     "original_text": "PMPML city bus arrived forty minutes late during morning office rush.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "PMPML city bus arrived forty minutes late during morning office rush.",
-    "expected_translation_en": "PMPML city bus arrived forty minutes late during morning office rush."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0056",
+    "id": "EVAL-0046",
     "category": "public_transport",
+    "eval_group": "english_clean",
     "original_text": "Broken passenger seats and shattered glass on route twenty-four bus.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Broken passenger seats and shattered glass on route twenty-four bus.",
-    "expected_translation_en": "Broken passenger seats and shattered glass on route twenty-four bus."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0057",
+    "id": "EVAL-0047",
     "category": "public_transport",
+    "eval_group": "english_clean",
     "original_text": "Bus driver refused to halt vehicle at designated passenger stop.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Bus driver refused to halt vehicle at designated passenger stop.",
-    "expected_translation_en": "Bus driver refused to halt vehicle at designated passenger stop."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0058",
+    "id": "EVAL-0048",
     "category": "public_transport",
+    "eval_group": "english_clean",
     "original_text": "Bus conductor overcharged ticket fare and misbehaved with student.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Bus conductor overcharged ticket fare and misbehaved with student.",
-    "expected_translation_en": "Bus conductor overcharged ticket fare and misbehaved with student."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0059",
+    "id": "EVAL-0049",
     "category": "public_transport",
+    "eval_group": "english_clean",
     "original_text": "Damaged bus shelter roof leaking rainwater directly onto passengers.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Damaged bus shelter roof leaking rainwater directly onto passengers.",
-    "expected_translation_en": "Damaged bus shelter roof leaking rainwater directly onto passengers."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0060",
+    "id": "EVAL-0050",
     "category": "public_transport",
+    "eval_group": "english_clean",
     "original_text": "Digital display board at Swargate terminal showing wrong bus timetable.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Digital display board at Swargate terminal showing wrong bus timetable.",
-    "expected_translation_en": "Digital display board at Swargate terminal showing wrong bus timetable."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0061",
-    "category": "public_transport",
-    "original_text": "Overcrowded buses with passengers hanging dangerously from footboard.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Overcrowded buses with passengers hanging dangerously from footboard.",
-    "expected_translation_en": "Overcrowded buses with passengers hanging dangerously from footboard."
-  },
-  {
-    "id": "EVAL-0062",
+    "id": "EVAL-0051",
     "category": "noise",
+    "eval_group": "english_clean",
     "original_text": "Loud music and DJ speakers operating past midnight near residential society.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Loud music and DJ speakers operating past midnight near residential society.",
-    "expected_translation_en": "Loud music and DJ speakers operating past midnight near residential society."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0063",
+    "id": "EVAL-0052",
     "category": "noise",
+    "eval_group": "english_clean",
     "original_text": "Illegal industrial generator creating excessive noise vibrations throughout night.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Illegal industrial generator creating excessive noise vibrations throughout night.",
-    "expected_translation_en": "Illegal industrial generator creating excessive noise vibrations throughout night."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0064",
+    "id": "EVAL-0053",
     "category": "noise",
+    "eval_group": "english_clean",
     "original_text": "Heavy trucks using prohibited multi-tone air horns near hospital zone.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Heavy trucks using prohibited multi-tone air horns near hospital zone.",
-    "expected_translation_en": "Heavy trucks using prohibited multi-tone air horns near hospital zone."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0065",
+    "id": "EVAL-0054",
     "category": "noise",
+    "eval_group": "english_clean",
     "original_text": "Construction activity with concrete mixers running continuously at 2 AM.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Construction activity with concrete mixers running continuously at 2 AM.",
-    "expected_translation_en": "Construction activity with concrete mixers running continuously at 2 AM."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0066",
+    "id": "EVAL-0055",
     "category": "noise",
+    "eval_group": "english_clean",
     "original_text": "Wedding procession blocking ambulance route with deafening firecrackers.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Wedding procession blocking ambulance route with deafening firecrackers.",
-    "expected_translation_en": "Wedding procession blocking ambulance route with deafening firecrackers."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0067",
+    "id": "EVAL-0056",
     "category": "noise",
+    "eval_group": "english_clean",
     "original_text": "Commercial workshop hammering metal sheets in declared silence zone.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Commercial workshop hammering metal sheets in declared silence zone.",
-    "expected_translation_en": "Commercial workshop hammering metal sheets in declared silence zone."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0068",
-    "category": "noise",
-    "original_text": "Rooftop pub playing loud electronic bass shaking nearby building windows.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Rooftop pub playing loud electronic bass shaking nearby building windows.",
-    "expected_translation_en": "Rooftop pub playing loud electronic bass shaking nearby building windows."
-  },
-  {
-    "id": "EVAL-0069",
+    "id": "EVAL-0057",
     "category": "illegal_dumping",
+    "eval_group": "english_clean",
     "original_text": "Construction debris and debris sacks dumped secretly on riverbed.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Construction debris and debris sacks dumped secretly on riverbed.",
-    "expected_translation_en": "Construction debris and debris sacks dumped secretly on riverbed."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0070",
+    "id": "EVAL-0058",
     "category": "illegal_dumping",
+    "eval_group": "english_clean",
     "original_text": "Private hospital dumping hazardous medical waste in open vacant plot.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Private hospital dumping hazardous medical waste in open vacant plot.",
-    "expected_translation_en": "Private hospital dumping hazardous medical waste in open vacant plot."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0071",
+    "id": "EVAL-0059",
     "category": "illegal_dumping",
+    "eval_group": "english_clean",
     "original_text": "Tractor trolley unloading concrete rubble across public footpath.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Tractor trolley unloading concrete rubble across public footpath.",
-    "expected_translation_en": "Tractor trolley unloading concrete rubble across public footpath."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0072",
+    "id": "EVAL-0060",
     "category": "illegal_dumping",
+    "eval_group": "english_clean",
     "original_text": "Chemical slurry poured into storm water line under darkness.",
     "expected_language": "en",
     "expected_script": "latin",
     "is_code_mixed": false,
     "expected_normalized_text": "Chemical slurry poured into storm water line under darkness.",
-    "expected_translation_en": "Chemical slurry poured into storm water line under darkness."
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0073",
-    "category": "illegal_dumping",
-    "original_text": "Plastic manufacturing unit discarding scrap rolls on forest hill slope.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Plastic manufacturing unit discarding scrap rolls on forest hill slope.",
-    "expected_translation_en": "Plastic manufacturing unit discarding scrap rolls on forest hill slope."
-  },
-  {
-    "id": "EVAL-0074",
-    "category": "illegal_dumping",
-    "original_text": "Used automobile tyres piled up high creating severe fire hazard.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Used automobile tyres piled up high creating severe fire hazard.",
-    "expected_translation_en": "Used automobile tyres piled up high creating severe fire hazard."
-  },
-  {
-    "id": "EVAL-0075",
-    "category": "illegal_dumping",
-    "original_text": "Unauthorized dumping of demolished bathroom tiles in public park corner.",
-    "expected_language": "en",
-    "expected_script": "latin",
-    "is_code_mixed": false,
-    "expected_normalized_text": "Unauthorized dumping of demolished bathroom tiles in public park corner.",
-    "expected_translation_en": "Unauthorized dumping of demolished bathroom tiles in public park corner."
-  },
-  {
-    "id": "EVAL-0076",
+    "id": "EVAL-0061",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "रस्त्यावर खूप मोठा खड्डा पडला असून अपघाताचा धोका आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रस्त्यावर खूप मोठा खड्डा पडला असून अपघाताचा धोका आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0077",
+    "id": "EVAL-0062",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "कर्वे रस्त्यावर पावसाने डांबर वाहून गेले असून खोल खड्डे पडले आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कर्वे रस्त्यावर पावसाने डांबर वाहून गेले असून खोल खड्डे पडले आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0078",
+    "id": "EVAL-0063",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "बाणेर रस्त्यावरील गतिरोधकावर पांढरे पट्टे नसल्याने वाहनचालक पडत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बाणेर रस्त्यावरील गतिरोधकावर पांढरे पट्टे नसल्याने वाहनचालक पडत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0079",
+    "id": "EVAL-0064",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "सिंहगड रस्त्यावर रस्त्याचे काम अर्धवट सोडल्याने खडी उडत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सिंहगड रस्त्यावर रस्त्याचे काम अर्धवट सोडल्याने खडी उडत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0080",
+    "id": "EVAL-0065",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पुणे स्टेशन बाहेरील रिक्षा स्टँड समोर चिखल आणि मोठा खड्डा झाला आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पुणे स्टेशन बाहेरील रिक्षा स्टँड समोर चिखल आणि मोठा खड्डा झाला आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0081",
+    "id": "EVAL-0066",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "जेएम रस्त्यावर ड्रेनेजचे झाकण रस्त्याच्या पातळीपेक्षा उंच आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "जेएम रस्त्यावर ड्रेनेजचे झाकण रस्त्याच्या पातळीपेक्षा उंच आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0082",
+    "id": "EVAL-0067",
     "category": "roads",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "हडपसर मधील अंतर्गत रस्ता कच्चा असल्याने दुचाकी घसरत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "हडपसर मधील अंतर्गत रस्ता कच्चा असल्याने दुचाकी घसरत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0083",
-    "category": "roads",
-    "original_text": "पादचारी मार्गावरील पेव्हर ब्लॉक तुटल्याने ज्येष्ठ नागरिकांना त्रास होतो.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "पादचारी मार्गावरील पेव्हर ब्लॉक तुटल्याने ज्येष्ठ नागरिकांना त्रास होतो.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0084",
+    "id": "EVAL-0068",
     "category": "garbage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "कोथरूड आगाराजवळ कचरा कुंडी भरून वाहते आहे आणि दुर्गंधी पसरली आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कोथरूड आगाराजवळ कचरा कुंडी भरून वाहते आहे आणि दुर्गंधी पसरली आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0085",
+    "id": "EVAL-0069",
     "category": "garbage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "बावधन परिसरात मागील तीन दिवसांपासून घंटागाडी आलेली नाही.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बावधन परिसरात मागील तीन दिवसांपासून घंटागाडी आलेली नाही.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0086",
+    "id": "EVAL-0070",
     "category": "garbage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "शिवाजीनगर येथील कचऱ्याच्या ढिगाऱ्यात भटकी जनावरे फिरत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "शिवाजीनगर येथील कचऱ्याच्या ढिगाऱ्यात भटकी जनावरे फिरत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0087",
+    "id": "EVAL-0071",
     "category": "garbage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "शाळेजवळ ओला आणि सुका कचरा कुजत असल्याने आरोग्यास धोका आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "शाळेजवळ ओला आणि सुका कचरा कुजत असल्याने आरोग्यास धोका आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0088",
+    "id": "EVAL-0072",
     "category": "garbage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "कात्रज तलावाजवळ नागरिक प्लास्टिक कचरा उघड्यावर टाकत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कात्रज तलावाजवळ नागरिक प्लास्टिक कचरा उघड्यावर टाकत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0089",
+    "id": "EVAL-0073",
     "category": "garbage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "भाजी मंडई परिसरात नियमित कचरा उचलला जात नाही.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "भाजी मंडई परिसरात नियमित कचरा उचलला जात नाही.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0090",
-    "category": "garbage",
-    "original_text": "सार्वजनिक ठिकाणी कचरा पेटवून दिल्याने परिसरात विषारी धूर पसरला आहे.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सार्वजनिक ठिकाणी कचरा पेटवून दिल्याने परिसरात विषारी धूर पसरला आहे.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0091",
-    "category": "garbage",
-    "original_text": "सोसायटीच्या गेट समोर मृत प्राणी पडला असून उचलण्यासाठी कोणी आले नाही.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सोसायटीच्या गेट समोर मृत प्राणी पडला असून उचलण्यासाठी कोणी आले नाही.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0092",
+    "id": "EVAL-0074",
     "category": "water_supply",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "औंध परिसरातील सोसायट्यांमध्ये कमी दाबाने पाणीपुरवठा होत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "औंध परिसरातील सोसायट्यांमध्ये कमी दाबाने पाणीपुरवठा होत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0093",
+    "id": "EVAL-0075",
     "category": "water_supply",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पिण्याच्या पाण्याच्या नळाला गढूळ आणि दुर्गंधीयुक्त पाणी येत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पिण्याच्या पाण्याच्या नळाला गढूळ आणि दुर्गंधीयुक्त पाणी येत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0094",
+    "id": "EVAL-0076",
     "category": "water_supply",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "वारजे भागात मुख्य जलवाहिनी फुटून लाखो लिटर पाणी वाया जात आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "वारजे भागात मुख्य जलवाहिनी फुटून लाखो लिटर पाणी वाया जात आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0095",
+    "id": "EVAL-0077",
     "category": "water_supply",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "गेल्या दोन दिवसांपासून नळाला अजिबात पाणी आलेले नाही.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "गेल्या दोन दिवसांपासून नळाला अजिबात पाणी आलेले नाही.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0096",
+    "id": "EVAL-0078",
     "category": "water_supply",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "धनकवडी परिसरात पाणीपुरवठ्याची वेळ नियमित नसल्याने हाल होत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "धनकवडी परिसरात पाणीपुरवठ्याची वेळ नियमित नसल्याने हाल होत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0097",
+    "id": "EVAL-0079",
     "category": "water_supply",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "वॉल्व्ह गळतीमुळे रस्त्यावर पाणी साठून तळे निर्माण झाले आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "वॉल्व्ह गळतीमुळे रस्त्यावर पाणी साठून तळे निर्माण झाले आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0098",
-    "category": "water_supply",
-    "original_text": "पिण्याच्या पाण्याच्या पाईपलाईनमध्ये ड्रेनेजचे पाणी मिसळले आहे.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "पिण्याच्या पाण्याच्या पाईपलाईनमध्ये ड्रेनेजचे पाणी मिसळले आहे.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0099",
-    "category": "water_supply",
-    "original_text": "पाणी पुरवठा अधिकाऱ्यांकडे तक्रार करूनही दखल घेतलेली नाही.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "पाणी पुरवठा अधिकाऱ्यांकडे तक्रार करूनही दखल घेतलेली नाही.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0100",
+    "id": "EVAL-0080",
     "category": "street_light",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "विमान नगर मुख्य रस्त्यावरील पथदिवे अनेक दिवसांपासून बंद आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "विमान नगर मुख्य रस्त्यावरील पथदिवे अनेक दिवसांपासून बंद आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0101",
+    "id": "EVAL-0081",
     "category": "street_light",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "टिंगरे नगर अंतर्गत गल्लीत अंधार असल्यामुळे महिलांना भीती वाटते.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "टिंगरे नगर अंतर्गत गल्लीत अंधार असल्यामुळे महिलांना भीती वाटते.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0102",
+    "id": "EVAL-0082",
     "category": "street_light",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "अपघातामुळे विजेचा खांब वाकला असून खाली पडण्याची शक्यता आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "अपघातामुळे विजेचा खांब वाकला असून खाली पडण्याची शक्यता आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0103",
+    "id": "EVAL-0083",
     "category": "street_light",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पथदिव्यांच्या उघड्या तारांमुळे लहान मुलांना विजेचा धक्का बसू शकतो.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पथदिव्यांच्या उघड्या तारांमुळे लहान मुलांना विजेचा धक्का बसू शकतो.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0104",
+    "id": "EVAL-0084",
     "category": "street_light",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "दिवसाही पथदिवे चालू राहिल्याने विजेचा अपव्यय होत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "दिवसाही पथदिवे चालू राहिल्याने विजेचा अपव्यय होत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0105",
+    "id": "EVAL-0085",
     "category": "street_light",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "झाडांच्या फांद्या वाढल्याने पथदिव्यांचा प्रकाश रस्त्यावर पडत नाही.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "झाडांच्या फांद्या वाढल्याने पथदिव्यांचा प्रकाश रस्त्यावर पडत नाही.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0106",
-    "category": "street_light",
-    "original_text": "खांबावरील बल्ब वारंवार बंद चालू होतो आणि डोळ्यांना त्रास देतो.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "खांबावरील बल्ब वारंवार बंद चालू होतो आणि डोळ्यांना त्रास देतो.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0107",
+    "id": "EVAL-0086",
     "category": "drainage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पौड रस्त्यावरील उघडे गटार तुंबले असून सांडपाणी रस्त्यावर येत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पौड रस्त्यावरील उघडे गटार तुंबले असून सांडपाणी रस्त्यावर येत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0108",
+    "id": "EVAL-0087",
     "category": "drainage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पावसाळी गटार गाळाने भरल्यामुळे पावसाचे पाणी घरात शिरले आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पावसाळी गटार गाळाने भरल्यामुळे पावसाचे पाणी घरात शिरले आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0109",
+    "id": "EVAL-0088",
     "category": "drainage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "ड्रेनेज चेंबरचे झाकण तुटल्याने वाहने खड्ड्यात अडकत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "ड्रेनेज चेंबरचे झाकण तुटल्याने वाहने खड्ड्यात अडकत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0110",
+    "id": "EVAL-0089",
     "category": "drainage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "सांडपाणी वाहून नेणारी पाईप फुटल्याने भयानक दुर्गंधी सुटली आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सांडपाणी वाहून नेणारी पाईप फुटल्याने भयानक दुर्गंधी सुटली आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0111",
+    "id": "EVAL-0090",
     "category": "drainage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "उघड्या गटारात डासांची पैदास वाढल्याने डेंग्यूचा प्रादुर्भाव वाढला आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "उघड्या गटारात डासांची पैदास वाढल्याने डेंग्यूचा प्रादुर्भाव वाढला आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0112",
+    "id": "EVAL-0091",
     "category": "drainage",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "सफाई कर्मचाऱ्यांनी गटारातील गाळ काढून रस्त्यावरच टाकून दिला आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सफाई कर्मचाऱ्यांनी गटारातील गाळ काढून रस्त्यावरच टाकून दिला आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0113",
-    "category": "drainage",
-    "original_text": "दुकानदारांच्या दुकानात सांडपाणी शिरल्याने मालाचे मोठे नुकसान झाले.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "दुकानदारांच्या दुकानात सांडपाणी शिरल्याने मालाचे मोठे नुकसान झाले.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0114",
-    "category": "drainage",
-    "original_text": "भुयारी गटार तुंबल्याने रस्त्यावर दुर्गंधीयुक्त पाण्याचे फवारे उडत आहेत.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "भुयारी गटार तुंबल्याने रस्त्यावर दुर्गंधीयुक्त पाण्याचे फवारे उडत आहेत.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0115",
+    "id": "EVAL-0092",
     "category": "traffic",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "स्वारगेट चौकातील वाहतूक सिग्नल बंद असल्याने मोठी कोंडी झाली आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "स्वारगेट चौकातील वाहतूक सिग्नल बंद असल्याने मोठी कोंडी झाली आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0116",
+    "id": "EVAL-0093",
     "category": "traffic",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "डाव्या बाजूला वळणाऱ्या रस्त्यावर बेकायदेशीर वाहने उभी केली जातात.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "डाव्या बाजूला वळणाऱ्या रस्त्यावर बेकायदेशीर वाहने उभी केली जातात.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0117",
+    "id": "EVAL-0094",
     "category": "traffic",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "रिक्षाचालक बस स्टॉपच्या समोर वाहने लावून प्रवाशांना अडवतात.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रिक्षाचालक बस स्टॉपच्या समोर वाहने लावून प्रवाशांना अडवतात.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0118",
+    "id": "EVAL-0095",
     "category": "traffic",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "शाळेसमोरील चौकात झेब्रा क्रॉसिंग नसल्याने विद्यार्थ्यांना धोका आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "शाळेसमोरील चौकात झेब्रा क्रॉसिंग नसल्याने विद्यार्थ्यांना धोका आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0119",
+    "id": "EVAL-0096",
     "category": "traffic",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पादचारी मार्गावर फळविक्रेत्यांनी अतिक्रमण केल्याने रस्त्यावरून चालावे लागते.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पादचारी मार्गावर फळविक्रेत्यांनी अतिक्रमण केल्याने रस्त्यावरून चालावे लागते.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0120",
+    "id": "EVAL-0097",
     "category": "traffic",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "सकाळच्या गर्दीच्या वेळी चौकात वाहतूक पोलीस हजर नसतात.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सकाळच्या गर्दीच्या वेळी चौकात वाहतूक पोलीस हजर नसतात.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0121",
-    "category": "traffic",
-    "original_text": "दुचाकीस्वार फुटपाथवरून वाहने चालवून पादचाऱ्यांना धडक देत आहेत.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "दुचाकीस्वार फुटपाथवरून वाहने चालवून पादचाऱ्यांना धडक देत आहेत.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0122",
-    "category": "traffic",
-    "original_text": "सिग्नलचा वेळ कमी असल्याने वाहनांच्या लांबच लांब रांगा लागतात.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सिग्नलचा वेळ कमी असल्याने वाहनांच्या लांबच लांब रांगा लागतात.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0123",
+    "id": "EVAL-0098",
     "category": "electricity",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "मॉडेल कॉलनी परिसरात वारंवार वीजपुरवठा खंडित होत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मॉडेल कॉलनी परिसरात वारंवार वीजपुरवठा खंडित होत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0124",
+    "id": "EVAL-0099",
     "category": "electricity",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "अचानक व्होल्टेज वाढल्यामुळे घरातील टीव्ही आणि फ्रीज जळून गेले.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "अचानक व्होल्टेज वाढल्यामुळे घरातील टीव्ही आणि फ्रीज जळून गेले.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0125",
+    "id": "EVAL-0100",
     "category": "electricity",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "विजेच्या तारा घराच्या गॅलरीला धोकादायक पद्धतीने स्पर्श करत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "विजेच्या तारा घराच्या गॅलरीला धोकादायक पद्धतीने स्पर्श करत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0126",
+    "id": "EVAL-0101",
     "category": "electricity",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "ट्रान्सफॉर्मरमधून ठिणग्या उडत असून मोठा आवाज येत आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "ट्रान्सफॉर्मरमधून ठिणग्या उडत असून मोठा आवाज येत आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0127",
+    "id": "EVAL-0102",
     "category": "electricity",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पादचारी मार्गावरील डीपी बॉक्सचे दार उघडे असून जिवंत तारा दिसत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पादचारी मार्गावरील डीपी बॉक्सचे दार उघडे असून जिवंत तारा दिसत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0128",
+    "id": "EVAL-0103",
     "category": "electricity",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "भूमिगत केबल खराब झाल्याने २४ तास वीज बंद होती.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "भूमिगत केबल खराब झाल्याने २४ तास वीज बंद होती.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0129",
-    "category": "electricity",
-    "original_text": "लाकडी विजेचा खांब कुजला असून कधीही कोसळू शकतो.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "लाकडी विजेचा खांब कुजला असून कधीही कोसळू शकतो.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0130",
+    "id": "EVAL-0104",
     "category": "public_transport",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पीएमपीएमएल बस वेळेवर न आल्यामुळे नोकरदारांचे हाल झाले.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पीएमपीएमएल बस वेळेवर न आल्यामुळे नोकरदारांचे हाल झाले.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0131",
+    "id": "EVAL-0105",
     "category": "public_transport",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "बसच्या खिडक्यांची तावदाने तुटलेली असून पावसाचे पाणी आत येते.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बसच्या खिडक्यांची तावदाने तुटलेली असून पावसाचे पाणी आत येते.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0132",
+    "id": "EVAL-0106",
     "category": "public_transport",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "चालकाने बस थांब्यावर न थांबवता पुढे निघून नेली.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "चालकाने बस थांब्यावर न थांबवता पुढे निघून नेली.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0133",
+    "id": "EVAL-0107",
     "category": "public_transport",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "कंडक्टरने सुट्टे पैसे परत न देता प्रवाशांशी उद्धट वर्तन केले.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कंडक्टरने सुट्टे पैसे परत न देता प्रवाशांशी उद्धट वर्तन केले.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0134",
+    "id": "EVAL-0108",
     "category": "public_transport",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "बस थांब्याचे शेड तुटल्यामुळे प्रवाशांना उन्हात उभे राहावे लागते.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बस थांब्याचे शेड तुटल्यामुळे प्रवाशांना उन्हात उभे राहावे लागते.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0135",
+    "id": "EVAL-0109",
     "category": "public_transport",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "डिजिटल फलकावर बसच्या वेळापत्रकाची चुकीची माहिती दाखवली जात आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "डिजिटल फलकावर बसच्या वेळापत्रकाची चुकीची माहिती दाखवली जात आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0136",
-    "category": "public_transport",
-    "original_text": "बसेसमध्ये प्रचंड गर्दी असून प्रवासी दरवाजाला लटकून प्रवास करतात.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "बसेसमध्ये प्रचंड गर्दी असून प्रवासी दरवाजाला लटकून प्रवास करतात.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0137",
+    "id": "EVAL-0110",
     "category": "noise",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "मध्यरात्रीनंतरही परिसरात डीजेचे कर्कश आवाज सुरू आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मध्यरात्रीनंतरही परिसरात डीजेचे कर्कश आवाज सुरू आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0138",
+    "id": "EVAL-0111",
     "category": "noise",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "हॉस्पिटल परिसरात अवजड वाहनांचे प्रेशर हॉर्न सतत वाजत आहेत.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "हॉस्पिटल परिसरात अवजड वाहनांचे प्रेशर हॉर्न सतत वाजत आहेत.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0139",
+    "id": "EVAL-0112",
     "category": "noise",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "निवासी भागात बेकायदेशीर कारखान्यातून रात्रभर यंत्रांचा आवाज येतो.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "निवासी भागात बेकायदेशीर कारखान्यातून रात्रभर यंत्रांचा आवाज येतो.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0140",
+    "id": "EVAL-0113",
     "category": "noise",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "रात्री दोन वाजता इमारतीचे बांधकाम सुरू असल्याने झोप लागत नाही.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रात्री दोन वाजता इमारतीचे बांधकाम सुरू असल्याने झोप लागत नाही.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0141",
+    "id": "EVAL-0114",
     "category": "noise",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "लग्न मिरवणुकीत फटाके वाजवून रुग्णालयातील रुग्णांना त्रास दिला जात आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "लग्न मिरवणुकीत फटाके वाजवून रुग्णालयातील रुग्णांना त्रास दिला जात आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0142",
-    "category": "noise",
-    "original_text": "पबमधील गाण्यांचे बेस आवाज आजूबाजूच्या इमारतींच्या खिडक्या हलवतात.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "पबमधील गाण्यांचे बेस आवाज आजूबाजूच्या इमारतींच्या खिडक्या हलवतात.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0143",
-    "category": "noise",
-    "original_text": "शांतता क्षेत्र घोषित केलेल्या भागात लाऊडस्पीकरवर घोषणा केल्या जात आहेत.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "शांतता क्षेत्र घोषित केलेल्या भागात लाऊडस्पीकरवर घोषणा केल्या जात आहेत.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0144",
+    "id": "EVAL-0115",
     "category": "illegal_dumping",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "मुळा मुठा नदीपात्रात रात्रीच्या वेळी बांधकामाचा राडारोडा टाकला जात आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मुळा मुठा नदीपात्रात रात्रीच्या वेळी बांधकामाचा राडारोडा टाकला जात आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0145",
+    "id": "EVAL-0116",
     "category": "illegal_dumping",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "मोकळ्या जागेत बायोमेडिकल कचरा फेकला जात असल्याने संसर्ग वाढू शकतो.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मोकळ्या जागेत बायोमेडिकल कचरा फेकला जात असल्याने संसर्ग वाढू शकतो.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0146",
+    "id": "EVAL-0117",
     "category": "illegal_dumping",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "टेकडीवर प्लास्टिक कारखान्यातील टाकाऊ माल बेकायदेशीरपणे टाकला आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "टेकडीवर प्लास्टिक कारखान्यातील टाकाऊ माल बेकायदेशीरपणे टाकला आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0147",
+    "id": "EVAL-0118",
     "category": "illegal_dumping",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "रसायनयुक्त सांडपाणी रात्री टँकरने नाल्यामध्ये सोडले जात आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रसायनयुक्त सांडपाणी रात्री टँकरने नाल्यामध्ये सोडले जात आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0148",
+    "id": "EVAL-0119",
     "category": "illegal_dumping",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "पादचारी मार्गावर जुने टायर रचून ठेवल्याने आग लागण्याची भीती आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पादचारी मार्गावर जुने टायर रचून ठेवल्याने आग लागण्याची भीती आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0149",
+    "id": "EVAL-0120",
     "category": "illegal_dumping",
+    "eval_group": "marathi_devanagari_clean",
     "original_text": "सार्वजनिक बागेच्या कोपऱ्यात घराचे बांधकाम साहित्य फेकून दिले आहे.",
     "expected_language": "mr",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सार्वजनिक बागेच्या कोपऱ्यात घराचे बांधकाम साहित्य फेकून दिले आहे.",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0150",
-    "category": "illegal_dumping",
-    "original_text": "माती आणि दगड रस्त्यावर टाकल्याने रस्ता अरुंद झाला आहे.",
-    "expected_language": "mr",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "माती आणि दगड रस्त्यावर टाकल्याने रस्ता अरुंद झाला आहे.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0151",
+    "id": "EVAL-0121",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सड़क पर बहुत बड़ा गड्ढा है जिससे रोज दुर्घटनाएं हो रही हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सड़क पर बहुत बड़ा गड्ढा है जिससे रोज दुर्घटनाएं हो रही हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0152",
+    "id": "EVAL-0122",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बारिश के बाद मुख्य सड़क का डामर बह गया और गहरे गड्ढे बन गए हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बारिश के बाद मुख्य सड़क का डामर बह गया और गहरे गड्ढे बन गए हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0153",
+    "id": "EVAL-0123",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "स्पीड ब्रेकर पर सफेद पट्टी न होने से रात में गाड़ियां फिसल रही हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "स्पीड ब्रेकर पर सफेद पट्टी न होने से रात में गाड़ियां फिसल रही हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0154",
+    "id": "EVAL-0124",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सड़क का काम अधूरा छोड़ दिया गया है जिससे गिट्टी उड़ रही है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सड़क का काम अधूरा छोड़ दिया गया है जिससे गिट्टी उड़ रही है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0155",
+    "id": "EVAL-0125",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "रेलवे स्टेशन के बाहर सड़क पर कीचड़ और भारी जलभराव है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रेलवे स्टेशन के बाहर सड़क पर कीचड़ और भारी जलभराव है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0156",
+    "id": "EVAL-0126",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "मैनहोल का ढक्कन सड़क की सतह से काफी ऊपर निकला हुआ है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मैनहोल का ढक्कन सड़क की सतह से काफी ऊपर निकला हुआ है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0157",
+    "id": "EVAL-0127",
     "category": "roads",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "कच्ची सड़क होने के कारण धूल उड़ती है और सांस लेना मुश्किल हो गया है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कच्ची सड़क होने के कारण धूल उड़ती है और सांस लेना मुश्किल हो गया है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0158",
-    "category": "roads",
-    "original_text": "फुटपाथ के पेवर ब्लॉक टूटे हैं जिससे बुजुर्ग गिर जाते हैं।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "फुटपाथ के पेवर ब्लॉक टूटे हैं जिससे बुजुर्ग गिर जाते हैं।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0159",
+    "id": "EVAL-0128",
     "category": "garbage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "कचरा पेटी पूरी तरह भरकर बह रही है और बदबू आ रही है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कचरा पेटी पूरी तरह भरकर बह रही है और बदबू आ रही है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0160",
+    "id": "EVAL-0129",
     "category": "garbage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "पिछले तीन दिनों से सफाई गाड़ी कचरा लेने नहीं आई है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पिछले तीन दिनों से सफाई गाड़ी कचरा लेने नहीं आई है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0161",
+    "id": "EVAL-0130",
     "category": "garbage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "कूड़े के ढेर पर आवारा मवेशी प्लास्टिक खा रहे हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कूड़े के ढेर पर आवारा मवेशी प्लास्टिक खा रहे हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0162",
+    "id": "EVAL-0131",
     "category": "garbage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "स्कूल के पास सड़ा हुआ कचरा पड़ा है जिससे बीमारी का खतरा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "स्कूल के पास सड़ा हुआ कचरा पड़ा है जिससे बीमारी का खतरा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0163",
+    "id": "EVAL-0132",
     "category": "garbage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सड़क पर लोग खुले में कचरा फेंक रहे हैं कोई रोक-टोक नहीं है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सड़क पर लोग खुले में कचरा फेंक रहे हैं कोई रोक-टोक नहीं है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0164",
+    "id": "EVAL-0133",
     "category": "garbage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सब्जी मंडी में कचरे की नियमित सफाई नहीं की जा रही है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सब्जी मंडी में कचरे की नियमित सफाई नहीं की जा रही है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0165",
-    "category": "garbage",
-    "original_text": "सार्वजनिक स्थान पर कचरा जलाया जा रहा है जिससे दम घुट रहा है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सार्वजनिक स्थान पर कचरा जलाया जा रहा है जिससे दम घुट रहा है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0166",
-    "category": "garbage",
-    "original_text": "मरा हुआ जानवर सड़क पर पड़ा है जिसे तुरंत उठाया जाए।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "मरा हुआ जानवर सड़क पर पड़ा है जिसे तुरंत उठाया जाए।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0167",
+    "id": "EVAL-0134",
     "category": "water_supply",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "कालोनी में पिछले दो दिनों से पानी की सप्लाई पूरी तरह बंद है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कालोनी में पिछले दो दिनों से पानी की सप्लाई पूरी तरह बंद है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0168",
+    "id": "EVAL-0135",
     "category": "water_supply",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "नल में बहुत गंदा और मटमैला पानी आ रहा है जो पीने योग्य नहीं है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "नल में बहुत गंदा और मटमैला पानी आ रहा है जो पीने योग्य नहीं है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0169",
+    "id": "EVAL-0136",
     "category": "water_supply",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "मुख्य पाइपलाइन फटने से सड़कों पर पीने का पानी बह रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मुख्य पाइपलाइन फटने से सड़कों पर पीने का पानी बह रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0170",
+    "id": "EVAL-0137",
     "category": "water_supply",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "पानी का दबाव बहुत कम है जिससे ऊपरी मंजिल तक पानी नहीं चढ़ता।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पानी का दबाव बहुत कम है जिससे ऊपरी मंजिल तक पानी नहीं चढ़ता।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0171",
+    "id": "EVAL-0138",
     "category": "water_supply",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "पानी आने का कोई निश्चित समय नहीं है कभी रात दो बजे आता है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पानी आने का कोई निश्चित समय नहीं है कभी रात दो बजे आता है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0172",
+    "id": "EVAL-0139",
     "category": "water_supply",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "वाल्व खराब होने के कारण पानी नाले में बह रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "वाल्व खराब होने के कारण पानी नाले में बह रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0173",
-    "category": "water_supply",
-    "original_text": "सीवर का पानी पीने की पाइपलाइन में मिल गया है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सीवर का पानी पीने की पाइपलाइन में मिल गया है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0174",
-    "category": "water_supply",
-    "original_text": "जल विभाग में बार-बार शिकायत के बावजूद कोई सुनवाई नहीं हुई।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "जल विभाग में बार-बार शिकायत के बावजूद कोई सुनवाई नहीं हुई।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0175",
+    "id": "EVAL-0140",
     "category": "street_light",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "मेन रोड की स्ट्रीट लाइट पिछले एक हफ्ते से खराब पड़ी है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "मेन रोड की स्ट्रीट लाइट पिछले एक हफ्ते से खराब पड़ी है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0176",
+    "id": "EVAL-0141",
     "category": "street_light",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "गली में अंधेरा होने की वजह से चोरी की घटनाएं बढ़ गई हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "गली में अंधेरा होने की वजह से चोरी की घटनाएं बढ़ गई हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0177",
+    "id": "EVAL-0142",
     "category": "street_light",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बिजली का खंभा टेढ़ा हो गया है जो कभी भी गिर सकता है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बिजली का खंभा टेढ़ा हो गया है जो कभी भी गिर सकता है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0178",
+    "id": "EVAL-0143",
     "category": "street_light",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "खंभे से नंगे तार लटक रहे हैं जिससे करंट लगने का खतरा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "खंभे से नंगे तार लटक रहे हैं जिससे करंट लगने का खतरा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0179",
+    "id": "EVAL-0144",
     "category": "street_light",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "दिन में भी लाइटें जलती रहती हैं और बिजली की बर्बादी होती है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "दिन में भी लाइटें जलती रहती हैं और बिजली की बर्बादी होती है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0180",
+    "id": "EVAL-0145",
     "category": "street_light",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "पेड़ों की टहनियों के कारण सड़क पर रोशनी नहीं आ पाती है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पेड़ों की टहनियों के कारण सड़क पर रोशनी नहीं आ पाती है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0181",
-    "category": "street_light",
-    "original_text": "बल्ब बार-बार टिमटिमाता रहता है और अचानक बंद हो जाता है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "बल्ब बार-बार टिमटिमाता रहता है और अचानक बंद हो जाता है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0182",
+    "id": "EVAL-0146",
     "category": "drainage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "खुला नाला ओवरफ्लो होकर गंदा पानी सड़क पर भर रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "खुला नाला ओवरफ्लो होकर गंदा पानी सड़क पर भर रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0183",
+    "id": "EVAL-0147",
     "category": "drainage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "नाली में प्लास्टिक कचरा फंसा होने के कारण पानी रुका हुआ है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "नाली में प्लास्टिक कचरा फंसा होने के कारण पानी रुका हुआ है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0184",
+    "id": "EVAL-0148",
     "category": "drainage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सीवर का ढक्कन टूटा हुआ है जिसमें बच्चे गिर सकते हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सीवर का ढक्कन टूटा हुआ है जिसमें बच्चे गिर सकते हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0185",
+    "id": "EVAL-0149",
     "category": "drainage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "गंदे नाले की वजह से इलाके में मच्छरों का भारी आतंक है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "गंदे नाले की वजह से इलाके में मच्छरों का भारी आतंक है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0186",
+    "id": "EVAL-0150",
     "category": "drainage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बारिश के पानी की निकासी न होने से दुकानों में पानी भर गया है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बारिश के पानी की निकासी न होने से दुकानों में पानी भर गया है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0187",
+    "id": "EVAL-0151",
     "category": "drainage",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सफाई कर्मचारियों ने नाली से कीचड़ निकालकर सड़क पर ही छोड़ दिया।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सफाई कर्मचारियों ने नाली से कीचड़ निकालकर सड़क पर ही छोड़ दिया।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0188",
-    "category": "drainage",
-    "original_text": "सीवर लाइन जाम होने से घरों के शौचालयों में पानी बैक मार रहा है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सीवर लाइन जाम होने से घरों के शौचालयों में पानी बैक मार रहा है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0189",
-    "category": "drainage",
-    "original_text": "भूमिगत नाले की बदबू से मोहल्ले में रहना दूभर हो गया है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "भूमिगत नाले की बदबू से मोहल्ले में रहना दूभर हो गया है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0190",
+    "id": "EVAL-0152",
     "category": "traffic",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "चौराहे की ट्रैफिक लाइट बंद है जिससे भारी जाम लगा रहता है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "चौराहे की ट्रैफिक लाइट बंद है जिससे भारी जाम लगा रहता है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0191",
+    "id": "EVAL-0153",
     "category": "traffic",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "लेफ्ट टर्न पर गाड़ियां पार्क कर दी जाती हैं जिससे रास्ता रुक जाता है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "लेफ्ट टर्न पर गाड़ियां पार्क कर दी जाती हैं जिससे रास्ता रुक जाता है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0192",
+    "id": "EVAL-0154",
     "category": "traffic",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बस स्टैंड के ठीक सामने ऑटो वाले खड़े होकर रास्ता रोकते हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बस स्टैंड के ठीक सामने ऑटो वाले खड़े होकर रास्ता रोकते हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0193",
+    "id": "EVAL-0155",
     "category": "traffic",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "स्कूल के पास जेब्रा क्रॉसिंग न होने से बच्चों को सड़क पार करने में डर लगता है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "स्कूल के पास जेब्रा क्रॉसिंग न होने से बच्चों को सड़क पार करने में डर लगता है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0194",
+    "id": "EVAL-0156",
     "category": "traffic",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "ठेले वालों ने सड़क पर कब्जा कर रखा है जिससे पैदल चलना मुश्किल है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "ठेले वालों ने सड़क पर कब्जा कर रखा है जिससे पैदल चलना मुश्किल है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0195",
+    "id": "EVAL-0157",
     "category": "traffic",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "व्यस्त समय में ट्रैफिक पुलिस नदारद रहती है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "व्यस्त समय में ट्रैफिक पुलिस नदारद रहती है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0196",
-    "category": "traffic",
-    "original_text": "बाइक सवार फुटपाथ पर गाड़ियां दौड़ाते हैं और दुर्घटना करते हैं।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "बाइक सवार फुटपाथ पर गाड़ियां दौड़ाते हैं और दुर्घटना करते हैं।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0197",
-    "category": "traffic",
-    "original_text": "सिग्नल का टाइमर गलत सेट होने से लंबी कतारें लग जाती हैं।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "सिग्नल का टाइमर गलत सेट होने से लंबी कतारें लग जाती हैं।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0198",
+    "id": "EVAL-0158",
     "category": "electricity",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "दिन में दस बार बिजली कटती है जिससे इनवर्टर भी डिस्चार्ज हो गया।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "दिन में दस बार बिजली कटती है जिससे इनवर्टर भी डिस्चार्ज हो गया।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0199",
+    "id": "EVAL-0159",
     "category": "electricity",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "हाई वोल्टेज की वजह से घर के पंखे और फ्रिज खराब हो गए।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "हाई वोल्टेज की वजह से घर के पंखे और फ्रिज खराब हो गए।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0200",
+    "id": "EVAL-0160",
     "category": "electricity",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बिजली की हाई टेंशन तार मकान की छत से बहुत पास गुजर रही है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बिजली की हाई टेंशन तार मकान की छत से बहुत पास गुजर रही है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0201",
+    "id": "EVAL-0161",
     "category": "electricity",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "ट्रांसफार्मर में तेज चिंगारी निकल रही है और धुआं उठ रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "ट्रांसफार्मर में तेज चिंगारी निकल रही है और धुआं उठ रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0202",
+    "id": "EVAL-0162",
     "category": "electricity",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "डीपी बाक्स का दरवाजा खुला है और बच्चे वहां खेलते हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "डीपी बाक्स का दरवाजा खुला है और बच्चे वहां खेलते हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0203",
+    "id": "EVAL-0163",
     "category": "electricity",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "भूमिगत केबल जलने से पूरा मोहल्ला रातभर अंधेरे में रहा।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "भूमिगत केबल जलने से पूरा मोहल्ला रातभर अंधेरे में रहा।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0204",
-    "category": "electricity",
-    "original_text": "बिजली विभाग का हेल्पलाइन नंबर कोई नहीं उठाता है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "बिजली विभाग का हेल्पलाइन नंबर कोई नहीं उठाता है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0205",
+    "id": "EVAL-0164",
     "category": "public_transport",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सरकारी बस अपने निर्धारित समय से एक घंटा देरी से आई।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सरकारी बस अपने निर्धारित समय से एक घंटा देरी से आई।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0206",
+    "id": "EVAL-0165",
     "category": "public_transport",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बस की सीटें टूटी हैं और फर्श पर लोहे के नुकीले टुकड़े निकले हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बस की सीटें टूटी हैं और फर्श पर लोहे के नुकीले टुकड़े निकले हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0207",
+    "id": "EVAL-0166",
     "category": "public_transport",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "ड्राइवर ने बस को स्टॉप पर नहीं रोका और सीधे निकाल ले गया।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "ड्राइवर ने बस को स्टॉप पर नहीं रोका और सीधे निकाल ले गया।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0208",
+    "id": "EVAL-0167",
     "category": "public_transport",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "कंडक्टर ने टिकट के बाकी पैसे वापस नहीं किए और बदतमीजी की।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "कंडक्टर ने टिकट के बाकी पैसे वापस नहीं किए और बदतमीजी की।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0209",
+    "id": "EVAL-0168",
     "category": "public_transport",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बस शेल्टर की छत टूटी है जिससे धूप और बारिश से बचाव नहीं होता।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बस शेल्टर की छत टूटी है जिससे धूप और बारिश से बचाव नहीं होता।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0210",
+    "id": "EVAL-0169",
     "category": "public_transport",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "बस स्टैंड पर डिस्प्ले बोर्ड बंद पड़ा है समय का पता नहीं चलता।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "बस स्टैंड पर डिस्प्ले बोर्ड बंद पड़ा है समय का पता नहीं चलता।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0211",
-    "category": "public_transport",
-    "original_text": "बस में बहुत ज्यादा भीड़ होने से पायदान पर लटक कर जाना पड़ता है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "बस में बहुत ज्यादा भीड़ होने से पायदान पर लटक कर जाना पड़ता है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0212",
+    "id": "EVAL-0170",
     "category": "noise",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "आधी रात को तेज आवाज में लाउडस्पीकर बजाया जा रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "आधी रात को तेज आवाज में लाउडस्पीकर बजाया जा रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0213",
+    "id": "EVAL-0171",
     "category": "noise",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "अस्पताल के बाहर ट्रक वाले तेज प्रेशर हॉर्न बजा रहे हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "अस्पताल के बाहर ट्रक वाले तेज प्रेशर हॉर्न बजा रहे हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0214",
+    "id": "EVAL-0172",
     "category": "noise",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "आवासीय क्षेत्र में अवैध फैक्ट्री की मशीनों से रातभर शोर होता है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "आवासीय क्षेत्र में अवैध फैक्ट्री की मशीनों से रातभर शोर होता है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0215",
+    "id": "EVAL-0173",
     "category": "noise",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "रात को दो बजे सीमेंट मिक्सर और ड्रिल मशीन चलाई जा रही है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रात को दो बजे सीमेंट मिक्सर और ड्रिल मशीन चलाई जा रही है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0216",
+    "id": "EVAL-0174",
     "category": "noise",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "शादी की बारात में सड़क पर तेज पटाखे फोड़े जा रहे हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "शादी की बारात में सड़क पर तेज पटाखे फोड़े जा रहे हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0217",
-    "category": "noise",
-    "original_text": "पब से आने वाली तेज डीजे की आवाज से बुजुर्गों की धड़कन बढ़ जाती है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "पब से आने वाली तेज डीजे की आवाज से बुजुर्गों की धड़कन बढ़ जाती है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0218",
-    "category": "noise",
-    "original_text": "बिना अनुमति के धार्मिक जुलूस में बहुत तेज साउंड बाक्स बजाया गया।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "बिना अनुमति के धार्मिक जुलूस में बहुत तेज साउंड बाक्स बजाया गया।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0219",
+    "id": "EVAL-0175",
     "category": "illegal_dumping",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "नदी के किनारे रात में चुपके से मलबा और कचरा डाला जा रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "नदी के किनारे रात में चुपके से मलबा और कचरा डाला जा रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0220",
+    "id": "EVAL-0176",
     "category": "illegal_dumping",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "खाली प्लाट में अस्पतालों का खतरनाक मेडिकल वेस्ट फेंका गया है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "खाली प्लाट में अस्पतालों का खतरनाक मेडिकल वेस्ट फेंका गया है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0221",
+    "id": "EVAL-0177",
     "category": "illegal_dumping",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "ट्रैक्टर ट्राली वाले सड़क के किनारे ईंट और पत्थर गिराकर भाग जाते हैं।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "ट्रैक्टर ट्राली वाले सड़क के किनारे ईंट और पत्थर गिराकर भाग जाते हैं।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0222",
+    "id": "EVAL-0178",
     "category": "illegal_dumping",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "रसायनों से भरा गंदा पानी नाले में टैंकर से बहाया जा रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "रसायनों से भरा गंदा पानी नाले में टैंकर से बहाया जा रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0223",
+    "id": "EVAL-0179",
     "category": "illegal_dumping",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "पहाड़ी पर प्लास्टिक कारखाने का कचरा फेंका जा रहा है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "पहाड़ी पर प्लास्टिक कारखाने का कचरा फेंका जा रहा है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0224",
+    "id": "EVAL-0180",
     "category": "illegal_dumping",
+    "eval_group": "hindi_devanagari_clean",
     "original_text": "सड़क पर पुराने टायर जमा करके रखे गए हैं जिससे आग लग सकती है।",
     "expected_language": "hi",
     "expected_script": "devanagari",
     "is_code_mixed": false,
     "expected_normalized_text": "सड़क पर पुराने टायर जमा करके रखे गए हैं जिससे आग लग सकती है।",
-    "expected_translation_en": null
+    "label_source": "unambiguous"
   },
   {
-    "id": "EVAL-0225",
-    "category": "illegal_dumping",
-    "original_text": "पार्क के अंदर निर्माण सामग्री फेंकी जा रही है जिससे हरियाली खत्म हो रही है।",
-    "expected_language": "hi",
-    "expected_script": "devanagari",
-    "is_code_mixed": false,
-    "expected_normalized_text": "पार्क के अंदर निर्माण सामग्री फेंकी जा रही है जिससे हरियाली खत्म हो रही है।",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0226",
+    "id": "EVAL-0181",
     "category": "roads",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Pune madhe road var khup motha pothole aahe please fix.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Pune madhe road var khup motha pothole aahe please fix.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0227",
+    "id": "EVAL-0182",
     "category": "roads",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Karve road var heavy monsoon nantar deep crater zala aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Karve road var heavy monsoon nantar deep crater zala aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0228",
+    "id": "EVAL-0183",
     "category": "roads",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Baner road var speed breaker var white paint markings nahiet.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Baner road var speed breaker var white paint markings nahiet.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0229",
+    "id": "EVAL-0184",
     "category": "roads",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Sinhagad road var road work ardhavat sodla aahe stones flying everywhere.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Sinhagad road var road work ardhavat sodla aahe stones flying everywhere.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0230",
+    "id": "EVAL-0185",
     "category": "roads",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Station baher rickshaw stand samor severe mud and pothole aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Station baher rickshaw stand samor severe mud and pothole aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0231",
-    "category": "roads",
-    "original_text": "JM road var drainage chamber road level peksha uncha aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "JM road var drainage chamber road level peksha uncha aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0232",
-    "category": "roads",
-    "original_text": "Hadapsar madhe side road var bike skid houn accidents hotat.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Hadapsar madhe side road var bike skid houn accidents hotat.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0233",
-    "category": "roads",
-    "original_text": "Footpath che paver blocks tutle aahet senior citizens fall down.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Footpath che paver blocks tutle aahet senior citizens fall down.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0234",
+    "id": "EVAL-0186",
     "category": "garbage",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Kothrud depot javal waste container overflow houn bad smell yete.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Kothrud depot javal waste container overflow houn bad smell yete.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0235",
+    "id": "EVAL-0187",
     "category": "garbage",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Bavdhan area madhe last 3 days pasun garbage truck aala nahi.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Bavdhan area madhe last 3 days pasun garbage truck aala nahi.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0236",
+    "id": "EVAL-0188",
     "category": "garbage",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Trash heap var stray animals plastic khat aahet very unhygienic.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Trash heap var stray animals plastic khat aahet very unhygienic.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0237",
-    "category": "garbage",
-    "original_text": "Municipal school javal wet and dry waste sadataa aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Municipal school javal wet and dry waste sadataa aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0238",
-    "category": "garbage",
-    "original_text": "Katraj lake garden javal people are dumping plastic bags openly.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Katraj lake garden javal people are dumping plastic bags openly.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0239",
-    "category": "garbage",
-    "original_text": "Market street var kuthech public dustbins nahi aahet.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Market street var kuthech public dustbins nahi aahet.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0240",
-    "category": "garbage",
-    "original_text": "Society gate samor dead animal padla aahe please clean urgently.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Society gate samor dead animal padla aahe please clean urgently.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0241",
-    "category": "garbage",
-    "original_text": "Open space madhe kachra petvun dila aahe toxic smoke spreading.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Open space madhe kachra petvun dila aahe toxic smoke spreading.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0242",
+    "id": "EVAL-0189",
     "category": "water_supply",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Aundh society madhe low pressure tap water supply aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Aundh society madhe low pressure tap water supply aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0243",
+    "id": "EVAL-0190",
     "category": "water_supply",
-    "original_text": "Drinking water madhe muddy and contaminated water flow hot aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Drinking water madhe muddy and contaminated water flow hot aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0244",
-    "category": "water_supply",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Main supply pipe leakage mule thousands of liters water waste zala.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Main supply pipe leakage mule thousands of liters water waste zala.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0245",
-    "category": "water_supply",
-    "original_text": "Warje madhe last two days pasun municipal water supply zero aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Warje madhe last two days pasun municipal water supply zero aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0246",
-    "category": "water_supply",
-    "original_text": "Water timings irregular aahet midnight 3 AM la pani sodtat.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Water timings irregular aahet midnight 3 AM la pani sodtat.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0247",
-    "category": "water_supply",
-    "original_text": "Pipeline leakage mule water gutter madhe mix hot aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Pipeline leakage mule water gutter madhe mix hot aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0248",
-    "category": "water_supply",
-    "original_text": "Morning tap water madhe strong chemical foul odor yet aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Morning tap water madhe strong chemical foul odor yet aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0249",
-    "category": "water_supply",
-    "original_text": "Water department la complaint keli tari action ghetli nahi.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Water department la complaint keli tari action ghetli nahi.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0250",
+    "id": "EVAL-0191",
     "category": "street_light",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Viman Nagar main road var street lights work karat nahiet.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Viman Nagar main road var street lights work karat nahiet.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0251",
+    "id": "EVAL-0192",
     "category": "street_light",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Internal lane madhe complete darkness aahe very unsafe for women.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Internal lane madhe complete darkness aahe very unsafe for women.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0252",
-    "category": "street_light",
-    "original_text": "Truck accident nantar electric pole bended zala aahe dangerous.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Truck accident nantar electric pole bended zala aahe dangerous.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0253",
-    "category": "street_light",
-    "original_text": "Street light pole var exposed live wires aahet risk for kids.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Street light pole var exposed live wires aahet risk for kids.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0254",
-    "category": "street_light",
-    "original_text": "Daytime madhe suddha lights on astat heavy electricity wastage.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Daytime madhe suddha lights on astat heavy electricity wastage.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0255",
-    "category": "street_light",
-    "original_text": "Tree branches mule street light road var reach hot nahi.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Tree branches mule street light road var reach hot nahi.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0256",
-    "category": "street_light",
-    "original_text": "Bulb continuously blinking hoto creating severe eye irritation.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Bulb continuously blinking hoto creating severe eye irritation.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0257",
+    "id": "EVAL-0193",
     "category": "drainage",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Paud road var open gutter overflow houn black sewage road var aala.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Paud road var open gutter overflow houn black sewage road var aala.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0258",
+    "id": "EVAL-0194",
     "category": "drainage",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Storm water drain plastic silt mule completely choked zala aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Storm water drain plastic silt mule completely choked zala aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0259",
-    "category": "drainage",
-    "original_text": "Drain cover missing aahe death trap for two wheeler riders.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Drain cover missing aahe death trap for two wheeler riders.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0260",
-    "category": "drainage",
-    "original_text": "Drainage inspection chamber cracked houn foul smell spreading.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Drainage inspection chamber cracked houn foul smell spreading.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0261",
-    "category": "drainage",
-    "original_text": "Rainfall madhe ground floor flats madhe sewage water enter zale.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Rainfall madhe ground floor flats madhe sewage water enter zale.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0262",
-    "category": "drainage",
-    "original_text": "Roadside culvert blocked mule shops madhe water logging zali.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Roadside culvert blocked mule shops madhe water logging zali.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0263",
-    "category": "drainage",
-    "original_text": "Stagnant drain water madhe mosquito breeding houn dengue cases wadhlya.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Stagnant drain water madhe mosquito breeding houn dengue cases wadhlya.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0264",
-    "category": "drainage",
-    "original_text": "Sanitation workers ni silt kadhun footpath varach thevla aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Sanitation workers ni silt kadhun footpath varach thevla aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0265",
+    "id": "EVAL-0195",
     "category": "traffic",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Swargate junction cha traffic signal malfunction zala aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Swargate junction cha traffic signal malfunction zala aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0266",
+    "id": "EVAL-0196",
     "category": "traffic",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Left turn var illegal parking mule bus block hot aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Left turn var illegal parking mule bus block hot aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0267",
-    "category": "traffic",
-    "original_text": "Rickshaw drivers bus stop entrance block kartat creating hassle.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Rickshaw drivers bus stop entrance block kartat creating hassle.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0268",
-    "category": "traffic",
-    "original_text": "School javal zebra crossing missing aahe crossing is risky.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "School javal zebra crossing missing aahe crossing is risky.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0269",
-    "category": "traffic",
-    "original_text": "Hawkers ni entire footpath occupy kela aahe forced to walk on road.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Hawkers ni entire footpath occupy kela aahe forced to walk on road.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0270",
-    "category": "traffic",
-    "original_text": "Morning rush hours madhe single traffic police official suddha nasto.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Morning rush hours madhe single traffic police official suddha nasto.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0271",
-    "category": "traffic",
-    "original_text": "Bikes footpath var drive kartat hitting senior citizen pedestrians.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Bikes footpath var drive kartat hitting senior citizen pedestrians.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0272",
-    "category": "traffic",
-    "original_text": "Signal timer faulty aahe causing kilometer long traffic jam.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Signal timer faulty aahe causing kilometer long traffic jam.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0273",
+    "id": "EVAL-0197",
     "category": "electricity",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Model Colony area madhe frequent power cuts hot aahet.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Model Colony area madhe frequent power cuts hot aahet.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0274",
+    "id": "EVAL-0198",
     "category": "electricity",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "High voltage surge mule refrigerator and TV burnt zale.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "High voltage surge mule refrigerator and TV burnt zale.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0275",
-    "category": "electricity",
-    "original_text": "High tension wire balcony la dangerously close touch hot aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "High tension wire balcony la dangerously close touch hot aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0276",
-    "category": "electricity",
-    "original_text": "Transformer madhun loud sparks and smoke yet aahe please check.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Transformer madhun loud sparks and smoke yet aahe please check.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0277",
-    "category": "electricity",
-    "original_text": "Feeder DP box open aahe live wires exposed on footpath.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Feeder DP box open aahe live wires exposed on footpath.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0278",
-    "category": "electricity",
-    "original_text": "Underground cable fault mule twelve hours pasun blackout aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Underground cable fault mule twelve hours pasun blackout aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0279",
-    "category": "electricity",
-    "original_text": "Old wooden electricity pole kuthlya hi kshani collapse hou shakto.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Old wooden electricity pole kuthlya hi kshani collapse hou shakto.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0280",
+    "id": "EVAL-0199",
     "category": "public_transport",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "PMPML bus office rush time madhe one hour late aali.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "PMPML bus office rush time madhe one hour late aali.",
-    "expected_translation_en": null
+    "label_source": "curated"
   },
   {
-    "id": "EVAL-0281",
-    "category": "public_transport",
-    "original_text": "Bus window panes broken aahet rainwater splashes inside.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Bus window panes broken aahet rainwater splashes inside.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0282",
-    "category": "public_transport",
-    "original_text": "Driver bus stop var stop na karta speed ne nighun gela.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Driver bus stop var stop na karta speed ne nighun gela.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0283",
-    "category": "public_transport",
-    "original_text": "Conductor ticket balance return karat nahi and misbehaves.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Conductor ticket balance return karat nahi and misbehaves.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0284",
-    "category": "public_transport",
-    "original_text": "Bus stop shelter roof damaged aahe no shade from sun or rain.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Bus stop shelter roof damaged aahe no shade from sun or rain.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0285",
-    "category": "public_transport",
-    "original_text": "Terminal digital display board war wrong bus timetable info dakhavli aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Terminal digital display board war wrong bus timetable info dakhavli aahe.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0286",
-    "category": "public_transport",
-    "original_text": "Bus madhe heavy overcrowding aahe people travelling on footboard.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Bus madhe heavy overcrowding aahe people travelling on footboard.",
-    "expected_translation_en": null
-  },
-  {
-    "id": "EVAL-0287",
+    "id": "EVAL-0200",
     "category": "noise",
+    "eval_group": "code_mixed_mr_en",
     "original_text": "Midnight nantar residential area madhe loud DJ music chalu aahe.",
     "expected_language": "mr-en",
     "expected_script": "latin",
     "is_code_mixed": true,
     "expected_normalized_text": "Midnight nantar residential area madhe loud DJ music chalu aahe.",
-    "expected_translation_en": null
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0201",
+    "category": "garbage",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Amchya mohalla madhye garbage collection band aahe last week pasun.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Amchya mohalla madhye garbage collection band aahe last week pasun.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0202",
+    "category": "roads",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Aamchya galli madhe main road broken aahe gaadi driving mushkil.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Aamchya galli madhe main road broken aahe gaadi driving mushkil.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0203",
+    "category": "water_supply",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Sarkari pipeline phutli aahe paani saglikade vahat aahe fix kara.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Sarkari pipeline phutli aahe paani saglikade vahat aahe fix kara.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0204",
+    "category": "traffic",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Signal band aslyamule traffic jam hotoy vinaanti kara correct.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Signal band aslyamule traffic jam hotoy vinaanti kara correct.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0205",
+    "category": "electricity",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Aamchya bhagat bijli nahi yete regularly please takraar ghya.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Aamchya bhagat bijli nahi yete regularly please takraar ghya.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0206",
+    "category": "garbage",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Shejari dukaan wale rasta var kachra taktat daily complaint keli.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Shejari dukaan wale rasta var kachra taktat daily complaint keli.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0207",
+    "category": "drainage",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Naala saaf kela nahi tar paavsat paani bhar-un yete basement madhe.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Naala saaf kela nahi tar paavsat paani bhar-un yete basement madhe.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0208",
+    "category": "noise",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Raat bhar construction chalte aajubajuchya lokaana traas hotoy very disturbing.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Raat bhar construction chalte aajubajuchya lokaana traas hotoy very disturbing.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0209",
+    "category": "public_transport",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Bus madhye itki gardi aste ki breathe karne pan mushkil very crowded.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Bus madhye itki gardi aste ki breathe karne pan mushkil very crowded.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0210",
+    "category": "roads",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Footpath todun padli aahe ek senior citizen padla hospital neele ambulance.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Footpath todun padli aahe ek senior citizen padla hospital neele ambulance.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0211",
+    "category": "water_supply",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Bore well cha paani contaminated aahe drinking safe nahi laboratory test kara.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Bore well cha paani contaminated aahe drinking safe nahi laboratory test kara.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0212",
+    "category": "street_light",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Pole vr bulb nahi aahe ratri andhaar hoto women unsafe vaatate.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Pole vr bulb nahi aahe ratri andhaar hoto women unsafe vaatate.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0213",
+    "category": "illegal_dumping",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Construction waste secretly dump kartaat raat-la riverbed var disgusting.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Construction waste secretly dump kartaat raat-la riverbed var disgusting.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0214",
+    "category": "electricity",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Transformer blast zala sparks udat aahet fire risk aahe urgent attention.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Transformer blast zala sparks udat aahet fire risk aahe urgent attention.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0215",
+    "category": "noise",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Pub chya loud music mule ratri zop yet nahi residents upset aahet.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Pub chya loud music mule ratri zop yet nahi residents upset aahet.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0216",
+    "category": "drainage",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Gutter cha paani road var yet aahe mosquito breeding ground banlya.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Gutter cha paani road var yet aahe mosquito breeding ground banlya.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0217",
+    "category": "traffic",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "School samor zebra crossing nahi aahe students risking life daily.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "School samor zebra crossing nahi aahe students risking life daily.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0218",
+    "category": "garbage",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Dead animal padla aahe road var koni uthavat nahi stink unbearable.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Dead animal padla aahe road var koni uthavat nahi stink unbearable.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0219",
+    "category": "roads",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Divider todla aahe concrete scattered var highway dangerous driving condition.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Divider todla aahe concrete scattered var highway dangerous driving condition.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0220",
+    "category": "water_supply",
+    "eval_group": "code_mixed_mr_en",
+    "original_text": "Tanker cha paani vikat ghyave lagte municipality supply band aahe.",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Tanker cha paani vikat ghyave lagte municipality supply band aahe.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0221",
+    "category": "roads",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Yahan road par bahut bada pothole hai please repair karo urgently.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Yahan road par bahut bada pothole hai please repair karo urgently.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0222",
+    "category": "garbage",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Kuda ghar ke bahar waste pile ho gaya hai garbage truck nahi aata.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Kuda ghar ke bahar waste pile ho gaya hai garbage truck nahi aata.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0223",
+    "category": "water_supply",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Paani supply do din se bilkul band hai please check pipeline.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Paani supply do din se bilkul band hai please check pipeline.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0224",
+    "category": "street_light",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Street light kharab hai raat ko andhera hota hai danger hai.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Street light kharab hai raat ko andhera hota hai danger hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0225",
+    "category": "drainage",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Naali ka paani overflow hokar sadak par aa raha hai drainage fix karo.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Naali ka paani overflow hokar sadak par aa raha hai drainage fix karo.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0226",
+    "category": "traffic",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Traffic signal band hai subah se bahut bada jam lag raha hai.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Traffic signal band hai subah se bahut bada jam lag raha hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0227",
+    "category": "electricity",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Bijli baar baar jaati hai daily power cut hota hai complaint karo.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Bijli baar baar jaati hai daily power cut hota hai complaint karo.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0228",
+    "category": "noise",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Raat ko factory ka shor bahut hota hai neend nahi aati help karo.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Raat ko factory ka shor bahut hota hai neend nahi aati help karo.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0229",
+    "category": "public_transport",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Bus time par nahi aati morning mein office late ho jaata hai.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Bus time par nahi aati morning mein office late ho jaata hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0230",
+    "category": "illegal_dumping",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Nadi ke paas chemical waste dump ho raha hai secretly raat ko.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Nadi ke paas chemical waste dump ho raha hai secretly raat ko.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0231",
+    "category": "roads",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Main road par pothole ki wajah se major accident ka risk hai.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Main road par pothole ki wajah se major accident ka risk hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0232",
+    "category": "garbage",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Society ke main gate ke samne dustbin overflow ho gaya hai smelly waste.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Society ke main gate ke samne dustbin overflow ho gaya hai smelly waste.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0233",
+    "category": "water_supply",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Pipeline leakage ki wajah se drinking water waste ho raha hai daily.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Pipeline leakage ki wajah se drinking water waste ho raha hai daily.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0234",
+    "category": "electricity",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Voltage fluctuation ki wajah se AC and lights damage ho gayi hain.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Voltage fluctuation ki wajah se AC and lights damage ho gayi hain.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0235",
+    "category": "street_light",
+    "eval_group": "code_mixed_hi_en",
+    "original_text": "Crossroad par high mast light band padi hai dark area ban gaya.",
+    "expected_language": "hi-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Crossroad par high mast light band padi hai dark area ban gaya.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0236",
+    "category": "roads",
+    "eval_group": "romanized_hindi",
+    "original_text": "Sadak par bahut bada gaddha hai gaadi fis rahi hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Sadak par bahut bada gaddha hai gaadi fis rahi hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0237",
+    "category": "garbage",
+    "eval_group": "romanized_hindi",
+    "original_text": "Kachra gaadi teen din se nahi aayi hai bahut gandagi hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Kachra gaadi teen din se nahi aayi hai bahut gandagi hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0238",
+    "category": "water_supply",
+    "eval_group": "romanized_hindi",
+    "original_text": "Paani do din se nahi aaya hai bahut mushkil ho raha hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Paani do din se nahi aaya hai bahut mushkil ho raha hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0239",
+    "category": "drainage",
+    "eval_group": "romanized_hindi",
+    "original_text": "Naali band ho gayi hai gandha paani sadak par beh raha hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Naali band ho gayi hai gandha paani sadak par beh raha hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0240",
+    "category": "electricity",
+    "eval_group": "romanized_hindi",
+    "original_text": "Bijli roz katti hai subah se shaam tak andhera rehta hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Bijli roz katti hai subah se shaam tak andhera rehta hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0241",
+    "category": "noise",
+    "eval_group": "romanized_hindi",
+    "original_text": "Gaadiyon ka shor raat bhar rehta hai sone mein dikkat hoti hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Gaadiyon ka shor raat bhar rehta hai sone mein dikkat hoti hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0242",
+    "category": "street_light",
+    "eval_group": "romanized_hindi",
+    "original_text": "Galli ke saare khambe band hain raat ko bahut andhera hota hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Galli ke saare khambe band hain raat ko bahut andhera hota hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0243",
+    "category": "public_transport",
+    "eval_group": "romanized_hindi",
+    "original_text": "Bas samay par nahi aati ghanton khade rehna padta hai.",
+    "expected_language": "hi",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Bas samay par nahi aati ghanton khade rehna padta hai.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0244",
+    "category": "roads",
+    "eval_group": "romanized_marathi",
+    "original_text": "Rastyavar khup motha khadda padla aahe apghaatacha dhoka aahe.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Rastyavar khup motha khadda padla aahe apghaatacha dhoka aahe.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0245",
+    "category": "garbage",
+    "eval_group": "romanized_marathi",
+    "original_text": "Ghanta gaadi aali nahi teen divsaanpasun kachra saathla aahe.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Ghanta gaadi aali nahi teen divsaanpasun kachra saathla aahe.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0246",
+    "category": "water_supply",
+    "eval_group": "romanized_marathi",
+    "original_text": "Nalatun paani yet nahi don divsaanpasun khup traas hotoy.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Nalatun paani yet nahi don divsaanpasun khup traas hotoy.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0247",
+    "category": "drainage",
+    "eval_group": "romanized_marathi",
+    "original_text": "Gutaraatun saandpaani vahat aahe rastyavar durgandhee yete.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Gutaraatun saandpaani vahat aahe rastyavar durgandhee yete.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0248",
+    "category": "street_light",
+    "eval_group": "romanized_marathi",
+    "original_text": "Pathdeeve band aahet gallit andhaar aahe mahilaanna bhiti vaatate.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Pathdeeve band aahet gallit andhaar aahe mahilaanna bhiti vaatate.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0249",
+    "category": "noise",
+    "eval_group": "romanized_marathi",
+    "original_text": "Raatri khup motthya aawazat gaani vajavli jaataat traas hoto.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Raatri khup motthya aawazat gaani vajavli jaataat traas hoto.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0250",
+    "category": "traffic",
+    "eval_group": "romanized_marathi",
+    "original_text": "Chowk madhye vahatuk kondi zali aahe police konihi nahi.",
+    "expected_language": "mr",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Chowk madhye vahatuk kondi zali aahe police konihi nahi.",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0251",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_whitespace",
+    "original_text": "Road   var   khup   pothole   aahe",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Road var khup pothole aahe",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0252",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_whitespace",
+    "original_text": "Garbage\t\tcollection\t\tnot\t\tdone",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Garbage collection not done",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0253",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_whitespace",
+    "original_text": "  Water supply band aahe   ",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Water supply band aahe",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0254",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_whitespace",
+    "original_text": "रस्त्यावर   खूप   मोठा   खड्डा   आहे",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "रस्त्यावर खूप मोठा खड्डा आहे",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0255",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_whitespace",
+    "original_text": "सड़क   पर   बहुत   बड़ा   गड्ढा   है",
+    "expected_language": "hi",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "सड़क पर बहुत बड़ा गड्ढा है",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0256",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_punctuation",
+    "original_text": "Road is broken!!!!!!",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Road is broken!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0257",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_punctuation",
+    "original_text": "Why is this not fixed?????",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Why is this not fixed?",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0258",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_punctuation",
+    "original_text": "No water supply........",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "No water supply...",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0259",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_punctuation",
+    "original_text": "Fix the pothole!!!!!! Very dangerous!!!",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Fix the pothole! Very dangerous!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0260",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_punctuation",
+    "original_text": "पाणी येत नाही!!!!!!",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "पाणी येत नाही!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0261",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_elongation",
+    "original_text": "khupppp motha pothole aahe",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "khup motha pothole aahe",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0262",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_elongation",
+    "original_text": "potholessss on the road everywhere",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "potholes on the road everywhere",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0263",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_elongation",
+    "original_text": "Roadddd is completely brokennnn",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Road is completely broken",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0264",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_elongation",
+    "original_text": "helpppp fix this issueee pleaseee",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "help fix this issue please",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0265",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_elongation",
+    "original_text": "sooooo bad water quality goooood luck getting clean water",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "soo bad water quality good luck getting clean water",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0266",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_unicode",
+    "original_text": "Road​ var​ pothole​ aahe",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Road var pothole aahe",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0267",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_unicode",
+    "original_text": "﻿Garbage collection not done properly",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Garbage collection not done properly",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0268",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_unicode",
+    "original_text": "रस्ता​वर खड्डा​ आहे",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "रस्तावर खड्डा आहे",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0269",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_unicode",
+    "original_text": "‪Street light‬ band aahe",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Street light band aahe",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0270",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_combined",
+    "original_text": "  Pune madhe   road var   potholessss   aahe!!!!!!  ",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Pune madhe road var potholes aahe!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0271",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_combined",
+    "original_text": "​Road​   completely   brokennnn!!!!!!",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Road completely broken!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0272",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_combined",
+    "original_text": "  Water   supply   band   aahe??????   helpppp  ",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "Water supply band aahe? help",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0273",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_combined",
+    "original_text": "Garbage\t\tnot\t\tcollected........   veryyy bad smell",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Garbage not collected... very bad smell",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0274",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_combined",
+    "original_text": "  रस्त्यावर   खूप   खड्डे   पडले!!!!!!  ",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "रस्त्यावर खूप खड्डे पडले!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0275",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_combined",
+    "original_text": "﻿  सड़क   पर   गड्ढा   है??????  ",
+    "expected_language": "hi",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "सड़क पर गड्ढा है?",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0276",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_allcaps",
+    "original_text": "ROAD VAR KHUP MOTHA POTHOLE AAHE PLEASE FIX URGENTLY",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "ROAD VAR KHUP MOTHA POTHOLE AAHE PLEASE FIX URGENTLY",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0277",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_allcaps",
+    "original_text": "GARBAGE NOT COLLECTED SINCE LAST WEEK VERY BAD SMELL EVERYWHERE",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "GARBAGE NOT COLLECTED SINCE LAST WEEK VERY BAD SMELL EVERYWHERE",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0278",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_allcaps_combined",
+    "original_text": "PUNE MADHE ROAD VAR KHUPPPPPP POTHOLE AAHE!!!!!!",
+    "expected_language": "mr-en",
+    "expected_script": "latin",
+    "is_code_mixed": true,
+    "expected_normalized_text": "PUNE MADHE ROAD VAR KHUP POTHOLE AAHE!",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0279",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_allcaps_combined",
+    "original_text": "WATER SUPPLY COMPLETELY CUTTTTTT SINCE TWO DAYS??????",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "WATER SUPPLY COMPLETELY CUT SINCE TWO DAYS?",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0280",
+    "category": "normalization_stress",
+    "eval_group": "norm_stress_unicode",
+    "original_text": "﻿रस्त्यावर​ खूप खड्डे पडले आहेत",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "रस्त्यावर खूप खड्डे पडले आहेत",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0281",
+    "category": "empty",
+    "eval_group": "edge_empty",
+    "original_text": "",
+    "expected_language": "unknown",
+    "expected_script": "unknown",
+    "is_code_mixed": false,
+    "expected_normalized_text": "",
+    "label_source": "unambiguous"
+  },
+  {
+    "id": "EVAL-0282",
+    "category": "whitespace_only",
+    "eval_group": "edge_whitespace_only",
+    "original_text": "   ",
+    "expected_language": "unknown",
+    "expected_script": "unknown",
+    "is_code_mixed": false,
+    "expected_normalized_text": "",
+    "label_source": "unambiguous"
+  },
+  {
+    "id": "EVAL-0283",
+    "category": "whitespace_only",
+    "eval_group": "edge_whitespace_only",
+    "original_text": "\t\n  \t",
+    "expected_language": "unknown",
+    "expected_script": "unknown",
+    "is_code_mixed": false,
+    "expected_normalized_text": "",
+    "label_source": "unambiguous"
+  },
+  {
+    "id": "EVAL-0284",
+    "category": "short",
+    "eval_group": "edge_short",
+    "original_text": "Pothole",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Pothole",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0285",
+    "category": "short",
+    "eval_group": "edge_short",
+    "original_text": "खड्डा",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "खड्डा",
+    "label_source": "curated"
+  },
+  {
+    "id": "EVAL-0286",
+    "category": "short",
+    "eval_group": "edge_short",
+    "original_text": "गड्ढा",
+    "expected_language": "hi",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "गड्ढा",
+    "label_source": "review_needed"
+  },
+  {
+    "id": "EVAL-0287",
+    "category": "short",
+    "eval_group": "edge_short",
+    "original_text": "Fix road",
+    "expected_language": "en",
+    "expected_script": "latin",
+    "is_code_mixed": false,
+    "expected_normalized_text": "Fix road",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0288",
-    "category": "noise",
-    "original_text": "Hospital zone madhe trucks continuous pressure horn blow kartat.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Hospital zone madhe trucks continuous pressure horn blow kartat.",
-    "expected_translation_en": null
+    "category": "short",
+    "eval_group": "edge_short",
+    "original_text": "पाणी नाही",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "पाणी नाही",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0289",
-    "category": "noise",
-    "original_text": "Illegal factory night madhe heavy machine noise create karte.",
+    "category": "mixed_script",
+    "eval_group": "edge_mixed_script",
+    "original_text": "FC Road वर खूप मोठा खड्डा आहे",
     "expected_language": "mr-en",
-    "expected_script": "latin",
+    "expected_script": "mixed",
     "is_code_mixed": true,
-    "expected_normalized_text": "Illegal factory night madhe heavy machine noise create karte.",
-    "expected_translation_en": null
+    "expected_normalized_text": "FC Road वर खूप मोठा खड्डा आहे",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0290",
-    "category": "noise",
-    "original_text": "Night 2 AM la construction machine noise mule sleep impossible.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
+    "category": "mixed_script",
+    "eval_group": "edge_mixed_script",
+    "original_text": "MG Road पर बहुत बड़ा गड्ढा है",
+    "expected_language": "hi-en",
+    "expected_script": "mixed",
     "is_code_mixed": true,
-    "expected_normalized_text": "Night 2 AM la construction machine noise mule sleep impossible.",
-    "expected_translation_en": null
+    "expected_normalized_text": "MG Road पर बहुत बड़ा गड्ढा है",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0291",
-    "category": "noise",
-    "original_text": "Wedding procession madhe deafening firecrackers burst kele.",
+    "category": "mixed_script",
+    "eval_group": "edge_mixed_script",
+    "original_text": "PMPML बस वेळेवर येत नाही daily late",
     "expected_language": "mr-en",
-    "expected_script": "latin",
+    "expected_script": "mixed",
     "is_code_mixed": true,
-    "expected_normalized_text": "Wedding procession madhe deafening firecrackers burst kele.",
-    "expected_translation_en": null
+    "expected_normalized_text": "PMPML बस वेळेवर येत नाही daily late",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0292",
-    "category": "noise",
-    "original_text": "Pub cha loud bass surrounding residential windows shake karto.",
+    "category": "mixed_script",
+    "eval_group": "edge_mixed_script",
+    "original_text": "Aundh मधील society ला water supply कमी आहे",
     "expected_language": "mr-en",
-    "expected_script": "latin",
+    "expected_script": "mixed",
     "is_code_mixed": true,
-    "expected_normalized_text": "Pub cha loud bass surrounding residential windows shake karto.",
-    "expected_translation_en": null
+    "expected_normalized_text": "Aundh मधील society ला water supply कमी आहे",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0293",
-    "category": "noise",
-    "original_text": "Silence zone declare kelya jagi loudspeaker war announcements chalu astat.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
+    "category": "mixed_script",
+    "eval_group": "edge_mixed_script",
+    "original_text": "Metro station के पास traffic bahut zyada hai",
+    "expected_language": "hi-en",
+    "expected_script": "mixed",
     "is_code_mixed": true,
-    "expected_normalized_text": "Silence zone declare kelya jagi loudspeaker war announcements chalu astat.",
-    "expected_translation_en": null
+    "expected_normalized_text": "Metro station के पास traffic bahut zyada hai",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0294",
-    "category": "illegal_dumping",
-    "original_text": "Mula Mutha riverbed madhe night la construction debris dump kartat.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Mula Mutha riverbed madhe night la construction debris dump kartat.",
-    "expected_translation_en": null
+    "category": "ambiguous_hi_mr",
+    "eval_group": "edge_ambiguous_hi_mr",
+    "original_text": "रस्ता खराब आहे दुरुस्ती करा.",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "रस्ता खराब आहे दुरुस्ती करा.",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0295",
-    "category": "illegal_dumping",
-    "original_text": "Open plot madhe hospital biomedical waste secretly dumped zala.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Open plot madhe hospital biomedical waste secretly dumped zala.",
-    "expected_translation_en": null
+    "category": "ambiguous_hi_mr",
+    "eval_group": "edge_ambiguous_hi_mr",
+    "original_text": "पानी की समस्या बहुत गंभीर है।",
+    "expected_language": "hi",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "पानी की समस्या बहुत गंभीर है।",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0296",
-    "category": "illegal_dumping",
-    "original_text": "Tractor trolley footpath var concrete rubble dump karun geli.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Tractor trolley footpath var concrete rubble dump karun geli.",
-    "expected_translation_en": null
+    "category": "ambiguous_hi_mr",
+    "eval_group": "edge_ambiguous_hi_mr",
+    "original_text": "कृपया लवकर दुरुस्ती करावी.",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "कृपया लवकर दुरुस्ती करावी.",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0297",
-    "category": "illegal_dumping",
-    "original_text": "Tanker night la storm water line madhe chemical slurry pour karto.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Tanker night la storm water line madhe chemical slurry pour karto.",
-    "expected_translation_en": null
+    "category": "ambiguous_hi_mr",
+    "eval_group": "edge_ambiguous_hi_mr",
+    "original_text": "नगरपालिकेने तात्काळ कार्यवाही करावी.",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "नगरपालिकेने तात्काळ कार्यवाही करावी.",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0298",
-    "category": "illegal_dumping",
-    "original_text": "Hill slope var plastic factory scrap secretly throw kartat.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Hill slope var plastic factory scrap secretly throw kartat.",
-    "expected_translation_en": null
+    "category": "ambiguous_hi_mr",
+    "eval_group": "edge_ambiguous_hi_mr",
+    "original_text": "नगरपालिका को तुरंत कार्रवाई करनी चाहिए।",
+    "expected_language": "hi",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "नगरपालिका को तुरंत कार्रवाई करनी चाहिए।",
+    "label_source": "curated"
   },
   {
     "id": "EVAL-0299",
-    "category": "illegal_dumping",
-    "original_text": "Old tyres roadside dump kele aahet creating huge fire risk.",
-    "expected_language": "mr-en",
+    "category": "numeric_heavy",
+    "eval_group": "edge_numeric_heavy",
+    "original_text": "Ward 15, Plot 234, Lane 7 has drainage overflow since 3 days.",
+    "expected_language": "en",
     "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Old tyres roadside dump kele aahet creating huge fire risk.",
-    "expected_translation_en": null
+    "is_code_mixed": false,
+    "expected_normalized_text": "Ward 15, Plot 234, Lane 7 has drainage overflow since 3 days.",
+    "label_source": "unambiguous"
   },
   {
     "id": "EVAL-0300",
-    "category": "illegal_dumping",
-    "original_text": "Public park corner madhe bathroom construction waste dump kela aahe.",
-    "expected_language": "mr-en",
-    "expected_script": "latin",
-    "is_code_mixed": true,
-    "expected_normalized_text": "Public park corner madhe bathroom construction waste dump kela aahe.",
-    "expected_translation_en": null
+    "category": "numeric_heavy",
+    "eval_group": "edge_numeric_heavy",
+    "original_text": "प्रभाग क्रमांक १२, रस्ता क्रमांक ४ येथे कचरा साचला आहे.",
+    "expected_language": "mr",
+    "expected_script": "devanagari",
+    "is_code_mixed": false,
+    "expected_normalized_text": "प्रभाग क्रमांक १२, रस्ता क्रमांक ४ येथे कचरा साचला आहे.",
+    "label_source": "unambiguous"
   }
 ]

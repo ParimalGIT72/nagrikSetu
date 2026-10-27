@@ -1,10 +1,14 @@
+import logging
 import uuid
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Optional
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile, status
+from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 
 from app.api.dependencies import get_current_user, require_staff
+from app.config import settings
 from app.db.database import get_db
 from app.models.complaint import Complaint
 from app.models.user import User
@@ -14,8 +18,11 @@ from app.schemas.complaint import (
     ComplaintSubmissionResponse,
 )
 from app.services.moderation import moderate_text
+from app.services.preprocessing import process_complaint_record
 from app.services.storage import save_complaint_image
 from app.services.validation import validate_coordinates, validate_text
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api/complaints", tags=["Complaints"])
 
@@ -84,6 +91,20 @@ async def submit_complaint(
     db.commit()
     db.refresh(db_complaint)
 
+    # 6. Automatic Phase 2 Preprocessing:
+    # Trigger Phase 2 NLP preprocessing (language detection, deterministic normalization,
+    # and Gemini semantic normalization with fallback) immediately upon complaint registration.
+    # Wrapped in an isolated error boundary so preprocessing errors never abort or undo
+    # a successfully registered citizen complaint.
+    try:
+        process_complaint_record(db=db, complaint=db_complaint)
+    except Exception as e:
+        logger.error(
+            f"Failed to auto-preprocess complaint '{db_complaint.complaint_id}': {e}",
+            exc_info=True,
+        )
+        db.rollback()
+
     return ComplaintSubmissionResponse(
         complaint_id=db_complaint.complaint_id,
         status=db_complaint.status,
@@ -136,3 +157,34 @@ def get_complaint(
             detail=f"Complaint '{complaint_id}' not found",
         )
     return complaint
+
+
+@router.get(
+    "/{complaint_id}/image",
+    summary="Get a complaint image",
+)
+def get_complaint_image(
+    complaint_id: str,
+    user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+):
+    complaint = db.query(Complaint).filter(Complaint.complaint_id == complaint_id).first()
+    if (
+        complaint is None
+        or (user.role == "citizen" and complaint.user_id != user.id)
+        or not complaint.image_path
+    ):
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Complaint image for '{complaint_id}' not found",
+        )
+
+    upload_dir = settings.UPLOAD_DIR.resolve()
+    image_path = Path(complaint.image_path).resolve()
+    if image_path.parent != upload_dir or not image_path.is_file():
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Complaint image for '{complaint_id}' not found",
+        )
+
+    return FileResponse(image_path)

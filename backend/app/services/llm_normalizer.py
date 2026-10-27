@@ -73,6 +73,9 @@ def call_gemini_api(text: str) -> Optional[LLMNormalizationSchema]:
             raw_text = candidates[0]["content"]["parts"][0]["text"]
             # Validate with Pydantic
             validated = LLMNormalizationSchema.model_validate_json(raw_text)
+            if text.strip() and (not validated.normalized_text or not validated.normalized_text.strip()):
+                logger.warning("Gemini returned empty normalized_text for non-empty input; falling back.")
+                return None
             return validated
     except Exception as e:
         logger.warning(f"Failed to normalize with Gemini API: {e}. Falling back to deterministic.")
